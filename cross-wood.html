@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quiénes Somos | El Alfa y el Omega</title>
+
+<link rel="stylesheet" href="assets/css/standard.css">
+
+<style>
+
+:root{
+    --gold:#FFD700;
+    --silver:#D6D6D6;
+    --dark:#0d1117;
+    --card:#161b22;
+}
+
+body{
+    margin:0;
+    background:var(--dark);
+    color:var(--silver);
+    font-family:Georgia, serif;
+}
+
+/* HERO */
+
+.hero-quienes{
+    position:relative;
+    min-height:100vh;
+    background:url('assets/img/quienes-somos-cross.jpg') center center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-quienes::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.hero-content{
+    position:relative;
+    z-index:5;
+    max-width:900px;
+    padding:40px;
+}
+
+.hero-content h1{
+    font-size:clamp(3rem,8vw,6rem);
+    color:var(--gold);
+    letter-spacing:4px;
+    margin-bottom:25px;
+
+    text-shadow:
+    0 0 20px rgba(255,215,0,.3),
+    0 0 40px rgba(255,215,0,.2);
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    color:white;
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* CONTENIDO */
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:80px 25px;
+}
+
+.card-ministry{
+    background:var(--card);
+    border:1px solid rgba(255,215,0,.15);
+    padding:50px;
+    border-radius:12px;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+.card-ministry p{
+    line-height:2;
+    font-size:1.05rem;
+    text-align:justify;
+}
+
+.section-title{
+    text-align:center;
+    color:var(--gold);
+    font-size:2rem;
+    margin-bottom:40px;
+}
+
+.quote{
+    margin-top:40px;
+    padding:30px;
+    border-left:4px solid var(--gold);
+    background:rgba(255,215,0,.05);
+    font-style:italic;
+    color:white;
+}
+
+.motto{
+    text-align:center;
+    margin-top:50px;
+}
+
+.motto h3{
+    color:var(--gold);
+    letter-spacing:3px;
+}
+
+.motto p{
+    color:var(--silver);
+}
+
+/* BOTON */
+
+.back-home{
+    display:inline-block;
+    margin-top:40px;
+    color:var(--gold);
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.back-home:hover{
+    transform:translateX(5px);
+}
+
+/* FOOTER */
+
+.footer-seal{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.footer-seal .soli{
+    color:var(--gold);
+    letter-spacing:4px;
+    font-size:1.1rem;
+}
+
+.footer-seal .yahweh{
+    margin-top:10px;
+    color:var(--silver);
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero-quienes">
+
+    <div class="hero-content">
+
+        <h1>QUIÉNES SOMOS</h1>
+
+        <p>
+            Desde la eternidad pasada hasta la eternidad futura,
+            el centro de la historia es Jesucristo.
+        </p>
+
+    </div>
+
+</section>
+
+<main class="container">
+
+    <div class="card-ministry">
+
+        <h2 class="section-title"

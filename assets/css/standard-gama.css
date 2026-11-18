@@ -1,0 +1,285 @@
+/* =====================================================
+   CSS STANDARD – HECHO POR GAMALIEL
+   PARA LAS PAGINAS EXTERNAS
+   ===================================================== */
+
+/* --- BASE GENERAL --- */
+body {
+  font-family: "Garamond", "Georgia", "Times New Roman", serif;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  margin: 40px;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* --- TEXTO PRE-FORMATEADO (DIÁLOGOS / EXÉGESIS) --- 
+pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: visible;
+  max-width: 100%;
+}*/
+
+/* --- TÍTULOS GENERALES --- */
+h1 {
+  color: #d94123;
+  text-align: center;
+}
+
+h2 {
+  color: #800404;
+}
+
+/* =====================================================
+   HERO STANDARD (RECTÁNGULO ROJO 🔥)
+   OBLIGATORIO EN TODA PÁGINA EXTERNA
+   ===================================================== */
+
+.hero-escatologico {
+  background-color: #800404;
+  color: #ffffff;
+  padding: 60px 20px;
+  margin: -40px -40px 40px -40px; /* encaja perfecto con body margin */
+  text-align: center;
+}
+
+.hero-escatologico h1 {
+  color: #ffffff;
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-escatologico p {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+}
+
+/* --- SECCIONES DE CONTENIDO --- */
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* --- CITAS TEOLÓGICAS / EGW / AUTORES --- */
+blockquote {
+  border-left: 5px solid #a00000;
+  padding-left: 15px;
+  margin: 20px 0;
+  font-style: italic;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* --- LISTAS --- */
+ul, ol {
+  margin-left: 30px;
+}
+
+/* --- ENLACES --- */
+a {
+  color: #a00000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- FOOTER SIMPLE (OPCIONAL) --- */
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+.theology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+
+.theology-table th,
+.theology-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+.theology-table th {
+  background-color: #8b0000;
+  color: #fff;
+  text-align: left;
+}
+/* --- TÍTULO TEOLÓGICO SUBLIME --- */
+.theology-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #800404;
+  text-align: center;
+  margin-top: 3rem;    /* más aire del header */
+  margin-bottom: 2.5rem;
+  position: relative;
+  letter-spacing: 0.03em;
+}
+
+/* Línea simbólica sutil (no decorativa, teológica) */
+.theology-title::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: #a00000;
+  margin: 18px auto 0 auto;
+  opacity: 0.8;
+}
+.trilogy-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #800404;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+  margin: 5rem 0 3rem 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.trilogy-title::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 3px;
+  background-color: #800404;
+  margin: 22px auto 0 auto;
+}
+
+
+    .btn-carmesi {
+        background-color: #cc0000 !important;
+        color: #ffffff !important;
+        font-size: 0.73rem !important;
+        font-weight: bold !important;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding: 12px 4px !important;
+        transition: background-color 0.2s ease;
+        text-decoration: none !important;
+    }
+    .btn-carmesi:hover {
+        background-color: #990000 !important;
+        color: #ffffff !important;
+    }
+
+.ref-personaje{
+    color:blue;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.ref-personaje:hover{
+    text-decoration:underline;
+}
+
+/* Mantiene los saltos de línea del código pero con ajuste de línea automático (evita scroll) */
+.contenido-exegesis {
+  white-space: pre-line;
+  word-break: break-word;
+}
+
+.theology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  /* Modificá esta línea para aumentar el tamaño de toda la tabla 👇 */
+  font-size: 1.25rem; 
+}
+
+.theology-table th {
+  font-size: 1.35rem; /* Un toque más grande para resaltar el encabezado */
+  font-weight: bold;
+}
+
+
+.tarjeta__leer {
+  background-color: #800404 !important;
+  color: #ffffff !important;
+  
+}
+
+
+/* =====================================================
+   ANÁLISIS GAMALIEL (CUERPO LIMPIO)
+   Solo texto: títulos en carmesí, letra serif sobria.
+   Sin cajas, fondos de color ni adornos.
+   ===================================================== */
+
+.cuerpo-analisis {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #222;
+}
+
+.cuerpo-analisis h1 {
+  color: #800404;
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 2.5rem 0 1rem;
+}
+
+.cuerpo-analisis h2 {
+  color: #800404;
+  font-size: 1.35rem;
+  margin: 1.8rem 0 0.6rem;
+}
+
+.cuerpo-analisis h3 {
+  color: #800404;
+  font-size: 1.15rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.cuerpo-analisis p {
+  margin: 0 0 1rem;
+}
+
+/* Griego y hebreo */
+[lang="grc"] {
+  font-family: "SBL Greek", "Gentium Plus", "Palatino Linotype", Georgia, serif;
+  font-style: normal;
+}
+
+[lang="he"] {
+  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+  font-style: normal;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Transliteración y etiquetas [TEXTO], [HISTÓRICO], etc. */
+.tr { font-style: italic; }
+.etq { font-size: 0.8em; font-weight: bold; font-style: normal; }
+
+/* Pasaje original: usa el blockquote estándar, sin cursiva */
+blockquote.original { font-style: normal; }
+
+/* Tablas anchas con desplazamiento horizontal en móvil */
+.tabla-scroll { overflow-x: auto; }
+
+/* --- MÓVIL --- */
+@media (max-width: 600px) {
+  body { margin: 16px; font-size: 1.1rem; }
+  .cuerpo-analisis { text-align: left; }
+  .hero-escatologico { margin: -16px -16px 24px -16px; padding: 40px 16px; }
+  .hero-escatologico h1 { font-size: 1.9rem; }
+  .theology-table, .theology-table th { font-size: 1rem; }
+}
+
+

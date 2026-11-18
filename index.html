@@ -3,23 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Blog Cristológico sobre escatología, misterios bíblicos y teología.">
-  <meta name="keywords" content="Blog cristiano,Blog Cristologico,Blog Cristocentrico, teología, exegesis, escatología,Biblia, misterios, fe, Apocalipsis, Génesis">
-  <meta name="author" content="Geanca">
+  <meta name="description" content="Pagina Cristológica sobre escatología, misterios bíblicos y teología.">
+  <meta name="keywords" content="Pagina Cristiana,Pagina Cristologica,Pagina Cristocentrica,blog Cristiano,blog Cristologico,blog Cristocentrico, teología, exegesis, 
+escatología,Biblia,misterios,fe,Apocalipsis,Génesis,Cómo conocer a Dios,Páginas cristianas recomendadas,Blog cristiano en español,Estudiar la Biblia gratis,
+Qué dice la Biblia sobre el fin del mundo,Explicación del Génesis,El Conflicto de los Siglos,Historias de la Biblia, 
+El mensaje de los 3 ángeles,Páginas adventistas,Quién fue Satanás,Teología cristiana profunda,Aprender de la Biblia,Cristo vino Cristo advierte,Reflexiones bíblicas,
+Quien es Dios, Quien es Jesucristo, Quien es el espiritu santo,quien creo el universo,
+Cómo conocer a Dios en tiempos difíciles,Páginas cristianas para encontrar paz,
+Que dice la Biblia sobre el fin del mundo,cuando se acabara el mundo,de donde venimos,quien nos creo,como aprender a orar desde cero,
+blogs cristianos de aliento y esperanza,paginas cristianas de aliento y esperanza,
+Explicación de la Biblia capítulo por capítulo,exegesis biblica,explicacion de la biblia,
+Páginas para estudiar la Biblia gratis,Historias de la Biblia resumidas,
+Quien fue Satanas antes de caer,Cómo empezó el pecado según la Biblia,
+la biblia resumida,el mejor blog cristiano en español,la mejor pagina cristiano en espanol,                   
+paginas web adventistas de teología,Reflexiones bíblicas profundas para hoy,
+paginas cristianas recomendadas">
+  <meta name="author" content="Geancarlo Beggerstaff Hay">
   <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Blog Cristológico">
+  <meta property="og:title" content="Pagina Cristológica">
   <meta property="og:description" content="Analisis Biblicos, Megaexegesis, Trilogia Cristológica, Estudio del Genesis, Misterios Biblicos y mas">
-  <meta property="og:image" content="assets/pics/REYBLOG2.png">
+  <meta property="og:image" content="https://netlify.app">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://el-alfa-y-el-omega.netlify.app/">
-  <title>Blog Cristologico | Cristo vino · Cristo advierte · Cristo reinará</title>
+  <title>Página Cristologica | Cristo vino · Cristo advierte · Cristo reinará</title>
+  
   <link rel="stylesheet" href="assets/css/backup.css">
   <link rel="stylesheet" href="assets/css/standard.css">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="icon" href="assets/favicon/biblia.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="assets/favicon/biblia.png">
+  
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SM5GYFRVN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -28,56 +43,156 @@
     gtag('config', 'G-4SM5GYFRVN');
   </script>
 
-<script type="text/javascript" src="https://google.com"></script>
+  <!-- Script oficial de Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'es', 
+        includedLanguages: 'es,en,pt,fr,de,it,he,el,zh,ja,ru', 
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 
 
+
+
+
+<style>
+/* ================================================================= */
+/* 🎨 DISEÑO FINAL DE BOTONES DE DOBLE NIVEL PARA LAS TARJETAS       */
+/* ================================================================= */
+
+/* Contenedor de niveles (Le da espacio de almohadilla abajo en la tarjeta) */
+.tarjeta__niveles {
+    padding: 15px !important;
+    background: #ffffff; /* Fondo blanco limpio para la zona de control */
+    border-top: 1px solid #ebdcd5;
+}
+
+/* 🟥 BOTÓN PRINCIPAL: LEER (Fondo Rojo, Letras Blancas) */
+.tarjeta__leer {
+    background: #800404 !important;
+    color: #ffffff !important;
+    display: block !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 0 !important;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 6px !important;
+    border: 1px solid #cc0000 !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease, transform 0.2s ease !important;
+    margin-bottom: 12px !important;
+}
+
+.tarjeta__leer:hover {
+    background: #990000 !important;
+    border-color: #990000 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+}
+
+/* 🛑 ENLACES SECUNDARIOS: INTERMEDIO Y PROFUNDO (Letras Rojas) */
+.tarjeta__otros {
+    text-align: center;
+    margin: 0 !important;
+    font-size: 0.88rem !important;
+    font-weight: 600;
+}
+
+.tarjeta__otros a {
+    color: #cc0000 !important;
+    text-decoration: none !important;
+    margin: 0 10px !important;
+    transition: color 0.2s ease;
+    display: inline-block;
+}
+
+.tarjeta__otros a:hover {
+    color: #990000 !important;
+    text-decoration: underline !important;
+}
+
+
+/* 🔘 BOTÓN DESACTIVADO: PRÓXIMAMENTE (Fondo Gris, Texto Claro, Bloqueado) */
+.tarjeta__leer--desactivado {
+    background: #555555 !important;
+    color: #cccccc !important;
+    border-color: #555555 !important;
+    cursor: not-allowed !important;
+    pointer-events: none;
+    display: block !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 0 !important;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 6px !important;
+    margin-bottom: 12px !important;
+}
+
+</style>
 </head>
 
-<!-- sitemap test -->
+
+
 
 <body>
 
-
-<!-- SELECTOR DE IDIOMAS GLOBAL DE GOOGLE -->
-<div id="google_translate_element" class="container text-end my-2" style="position: relative; z-index: 1050;"></div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'es', 
-    includedLanguages: 'en,pt,he,el,fr,de,it,zh,ja,ru', // Aquí puedes quitar o meter más idiomas separados por comas
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-  }, 'google_translate_element');
-}
-</script>
-
-
-
+<!-- Contenedor oculto requerido por Google Translate -->
+<div id="google_translate_element" style="display:none;"></div>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" aria-label="Navegación principal">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" aria-label="Navegación principal" style="overflow: visible !important;">
+    <div class="container" style="overflow: visible !important;">
       <a class="navbar-brand" href="#">
         <i class="bi bi-book-half"></i> Página Cristológica
       </a>
-        <img src="assets/pics/Teseracto.gif" alt="Tesseracto" class="tesseract-navbar">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+      <img src="assets/pics/Teseracto.gif" alt="Tesseracto" class="tesseract-navbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="menuNavegacion">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      
+
+
+
+      <div class="collapse navbar-collapse" id="menuNavegacion" style="overflow: visible !important;">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="super-index.html" target="_blank" rel="noopener noreferrer">Inicio</a></li>
+
           <li class="nav-item"><a class="nav-link active" href="glosario.html" target="_blank" rel="noopener noreferrer">Glosario</a></li>
-          <li class="nav-item"><a class="nav-link" href="#introduccion">Introducción</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Misterios</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#seccion-piedad">Misterio de la Piedad</a></li>
-              <li><a class="dropdown-item" href="#seccion-iniquidad">Misterio de la Iniquidad</a></li>
+          <!-- 🌐 SELECTOR DE IDIOMAS DE BANDERAS 100% FUNCIONAL Y TRADUCTOR -->
+          <li class="nav-item dropdown" style="position: relative;">
+            <a class="nav-link text-white px-3 d-inline-flex align-items-center" href="javascript:void(0)" onclick="toggleMenuBanderas(event)" style="cursor: pointer;">
+              <img src="https://flagcdn.com/24x18/es.png" alt="España" style="width: 22px; height: 16px; object-fit: cover; border-radius: 2px;">
+              <span class="ms-1" style="font-size: 0.65rem;">▼</span>
+            </a>
+            
+            <ul id="desplegableBanderas" class="shadow text-start px-2 py-2" style="display: none; position: absolute; right: 0; top: 100%; background-color: #5e0303; border: 1px solid #800404; min-width: 160px; z-index: 999999; list-style: none; margin: 0; border-radius: 6px;">
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#es" onclick="seleccionarIdioma('es', event)"><img src="https://flagcdn.com/24x18/es.png" alt="ES" style="width: 20px; height: 14px;"> Español</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#en" onclick="seleccionarIdioma('en', event)"><img src="https://flagcdn.com/24x18/us.png" alt="US" style="width: 20px; height: 14px;"> English</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#pt" onclick="seleccionarIdioma('pt', event)"><img src="https://flagcdn.com/24x18/br.png" alt="BR" style="width: 20px; height: 14px;"> Português</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#fr" onclick="seleccionarIdioma('fr', event)"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" style="width: 20px; height: 14px;"> Français</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#de" onclick="seleccionarIdioma('de', event)"><img src="https://flagcdn.com/24x18/de.png" alt="DE" style="width: 20px; height: 14px;"> Deutsch</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#it" onclick="seleccionarIdioma('it', event)"><img src="https://flagcdn.com/24x18/it.png" alt="IT" style="width: 20px; height: 14px;"> Italiano</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#he" onclick="seleccionarIdioma('he', event)"><img src="https://flagcdn.com/24x18/il.png" alt="IL" style="width: 20px; height: 14px;"> עברית</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#el" onclick="seleccionarIdioma('el', event)"><img src="https://flagcdn.com/24x18/gr.png" alt="GR" style="width: 20px; height: 14px;"> Ελληνικά</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#zh" onclick="seleccionarIdioma('zh', event)"><img src="https://flagcdn.com/24x18/cn.png" alt="CN" style="width: 20px; height: 14px;"> 中文</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#ja" onclick="seleccionarIdioma('ja', event)"><img src="https://flagcdn.com/24x18/jp.png" alt="JP" style="width: 20px; height: 14px;"> 日本語</a></li>
+              <li><a class="dropdown-item py-1 d-flex align-items-center gap-2 text-white" href="#ru" onclick="seleccionarIdioma('ru', event)"><img src="https://flagcdn.com/24x18/ru.png" alt="RU" style="width: 20px; height: 14px;"> Русский</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#fuentes">Fuentes</a></li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="#fuentes">Fuentes</a></li>
         </ul>
       </div>
     </div>
@@ -85,329 +200,959 @@ function googleTranslateElementInit() {
 </header>
 
 
-  
+
+
+<!-- ACTO 1 LA TRINIDAD -->
+<section id="quien-es-dios" class="fila-tarjetas container-xl" aria-labelledby="quien-es-dios-titulo">
+  <h2 id="quien-es-dios-titulo" class="fila-tarjetas__titulo"> ANTES DE LA CREACION </h2>
+
+
+  <div class="row g-4">
+
+    <!-- DIOS PADRE -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/YHWH.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">El Dios Padre</h3> <br>
+          <p class="tarjeta__gancho">¿Quien es el Dios Padre en el <br>
+                                     Antiguo y Nuevo Testamento ?  <br> <br>
+          </p>
+          <p class="tarjeta__ref">Mateo 6:9</p>
+        </div>
+        
+        
+<div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+    <!-- DIOS HIJO -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/JESUS.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">El Dios Hijo </h3> <br>
+          <p class="tarjeta__gancho">¿Quien es el Hijo de Dios <br>
+                                     y porque transciende nuestra era en A.C. y D.C.? <br> <br>
+                                     </p>
+          <p class="tarjeta__ref">Juan 3:16</p>
+        </div>
+        
+       <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+    <!-- DIOS ESPIRITU SANTO -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/ESPIRITU.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">El Dios Espiritu Santo</h3> <br>
+          <p class="tarjeta__gancho">¿Quien es El Espiritu Santo y porque aparece <br> tan pocas veces en el Viejo Testamento  y tantas veces en el Nuevo Testamento?</p> <br> 
+          <p class="tarjeta__ref">Hechos de los Apostoles 1:15</p> 
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
 
 
 
-  
-  <!-- 👑 LA CORONA DEL PORTAL: TRES CARDS JUNTAS CON FILTRO DE NIVELES  -->
-  
-    <!-- ================================================================= -->
-  <!-- 👑 LA CORONA DEL PORTAL: GRID LIMPIO CON ENLACES INDEPENDIENTES   -->
-  <!-- ================================================================= -->
-  <h2 class="section-title">La Santísima Trinidad — Elohim Eterno</h2>
-  <section class="container my-4">
-    <div class="row g-4 justify-content-center">
+      </div>
+    </article>
+</div>
+</section>
+
+
+
+<!-- ACTO 2 EL PRE-CONFLICTO -->
+<section id="quien-es-dios" class="fila-tarjetas container-xl" aria-labelledby="quien-es-dios-titulo">
+  <h2 id="quien-es-dios-titulo" class="fila-tarjetas__titulo"> El PRE-ESCENARIO DEL CONFLICTO </h2>
+
+  <div class="row g-4">
+
+    <!-- tercer cielo -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/Heaven.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">LA MORADA DE DIOS: <br> 
+                                                                                                                              EL TERCER CIELO <br> <br> <br>
+                                                                                                                              Conozco a un hombre en Cristo, que hace catorce años (si en el cuerpo, no lo sé; si fuera del cuerpo, no lo sé; Dios lo sabe) fue arrebatado hasta el tercer cielo. <br> <br> <br>
+                                                                                                                              2 CORINTIOS 12:2 (RV1960) </h5>
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+   <!-- lucifer -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/Lucifer.jpg"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL QUERUBIN PROTECTOR:  <br>
+                                                                                                                                    LUCIFER <br><br>
+                                                                                                                                    <b>[Texto Masorético: 9 piedras preciosas / Versión LXX: 12 piedras]</b> <br> <br>
+                                                                                                                                    En Edén, en el huerto de Dios estuviste; de toda piedra preciosa era tu vestidura; de cornerina, topacio, jaspe, crisólito, berilo y ónice; de zafiro, carbunclo, esmeralda y oro; <br> 
+                                                                                                                                    los primores de tus tamboriles y flautas estuvieron preparados para ti en el día de tu creación. <br> <br>
+                                                                                                                                    EZEQUIEL 28:13 (RV1960)
+                                                                                                                                    </h5>
+        
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+
+<!-- satan -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/luci.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+         <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">LA REBELIÓN CELESTIAL: <br> SATANÁS <br><br>
+                                                                                                                              «¡Cómo caíste del cielo, oh Lucifer, hijo de la aurora! Derribado fuiste a tierra... <br>  
+                                                                                                                              Se enalteció tu corazón a causa de tu hermosura, corrompiste tu sabiduría a causa de tu esplendor; <br>  
+                                                                                                                              yo te arrojaré por tierra». <br> <br>
+                                                                                                                              ISAÍAS 14:12 / EZEQUIEL 28:17 (RV1960)
+                                                                                                                              </h5>
+            
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- ACTO 3 ANTES DE LA CREACION -->
+<section id="quien-es-dios" class="fila-tarjetas container-xl" aria-labelledby="quien-es-dios-titulo">
+  <h2 id="quien-es-dios-titulo" class="fila-tarjetas__titulo"> PRE-AMBULO DE LA CREACION </h2>
+
+  <div class="row g-4">
+
+    <!-- teoria del Gap -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/hexa.jpg"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">LA TEORIA DEL GAP <br> <br>
+                                                                                                                  En el principio creó Dios los cielos y la tierra. <br>
+                                                                                                                  Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo... <br><br>
+                                                                                                                  Génesis 1:1-2 (RV1960)
+                                                                                                                
+                                                                                                                </h5>
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+   <!-- EL Hexaemeron -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/Gemini_Genesis2.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL HEXAEMERON <br><br>
+                                                                                                                   Y dijo Dios: Sea la luz; y fue la luz... Y vio Dios todo lo que había hecho, <br>
+                                                                                                                   y he aquí que era bueno en gran manera. Y fue la tarde y la mañana el día sexto <br><br>
+                                                                                                                   Génesis 1:3,31 (RV1960)
+        
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+
+<!-- Libro del Genesis -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/Genesis-Gemini.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL PRIMER LIBRO DE LA TORA</h5> 
+        </div>
+
+        <div class="tarjeta__niveles">
+          <a class="tarjeta__leer" href="https://livecastnet.com/web/holyfire/site/labiblia/RV1960/index.html" target="_blank" rel="noopener noreferrer" aria-label="Leer versión breve: El Padre">LEER EL GENESIS</a>
+          
+        </div>
+        </div>    
+    
+    </article>
+    
+
+
+
+
+
+
+<!-- ================================================================= -->
+<!-- 👑 MATRIX MAESTRA:  DURANTE LA CREACION  -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title " style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    DURANTE LA CREACION
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- COLUMNA 1 (BIO DE MOISES) -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/moises-gemini.jpg"
+             alt="Biografía de Moisés"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">
+            BIOGRAFIA DEL PATRIARCA HEBREO: <br> MOISES <br><br>
+            "Porque si creyeseis a Moisés, me creeríais a mí, porque de mí escribió él". <br> Juan 5:46
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+    
+    <!-- COLUMNA 2: HIPOTESIS DOCUMENTARIA -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/zoom.png"
+             alt="Hipótesis Documentaria"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">
+            HIPOTESIS DOCUMENTARIA: <br> JEDP <br><br>
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+    
+
+
+
+<!-- Libro del Genesis -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/Genesis-Gemini.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL PRIMER LIBRO DE LA TORA</h5> 
+        </div>
+
+        
+        </div>    
+    </article>
+
+
+
+
+
+
+
+<!-- ================================================================= -->
+<!-- 👑 MATRIX MAESTRA:  DENTRO DE LA CREACION  -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    DENTRO DE LA CREACION
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- COLUMNA 1 (BIO DE ADAN Y EVA) -->
+    
       
-      <!-- Tarjeta 1: El Padre -->
-      <div class="col-12 col-md-4">
-        <div class="card bg-dark text-white h-100 shadow-sm" style="border: 1px solid #222; background: #050505 !important;">
-          <div style="width: 100%; height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #000; padding: 5px;">
-            <img src="assets/pics/YHWH.png" class="w-100 h-100" alt="YHWH Tzevaot" style="object-fit: cover; transform: scale(1.2); transition: transform 0.3s ease;" onerror="this.src='https://placehold.co'">
-          </div>
-          <div class="card-body p-4 text-center d-flex flex-column">
-            <h5 class="card-title" style="color: #C0C0C0; font-weight: bold; letter-spacing: 1px;">YHWH TZEVAOT — EL PADRE</h5>
-            <p class="text-muted small mb-3">Oficio: El Diseñador y Comandante Supremo</p>
-            <p class="text-start text-secondary mb-4" style="font-size: 0.90rem; line-height: 1.6; opacity: 0.85;">
-              YHWH es el Diseñador soberano del plan de redención. Él decreta la creación desde el Génesis y comanda las huestes invisibles (Tzevaot). Toda la historia brota de Su voluntad eterna.
-            </p>
-          </div>
-          <!-- Botones Carmesí Independientes: Abren en ventana nueva directamente -->
-          <div class="btn-group w-100" role="group" style="border-top: 1px solid #222; margin-top: auto;">
-            <a href="padre-breve.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Breve </a>
-            <a href="padre-intermedio.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Intermedia </a>
-            <a href="padre-profunda.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 d-flex align-items-center justify-content-center">Lectura Profunda</a>
-          </div>
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/apple.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">BIOGRAFIA DE ADAN Y EVA<br><br>
+                                                                                                                    Genesis 2:23 <br> Reina Valera 1960 </h5>
+        
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+        
+      </div>
+    </article>
+    
+    <!-- COLUMNA 2 (CAIDA EN EL HUERTO) -->
+    
+      
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/serpiente-alada.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">CAIDA EN EL HUERTO DEL EDEN </h5>
+                                                                                                                    
+        
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+    
+    
+    
+    <!-- COLUMNA LIBRO DEL GENESIS REPETIDO EN CADA 3ER CARD -->
+    <article class="col-12 col-lg-4">
+    <div class="tarjeta">
+    <img class="tarjeta__img" src="assets/pics/Genesis-Gemini.png"
+    alt="Describir aquí lo que muestra la imagen"
+    width="800" height="600" loading="lazy">
+      <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL PRIMERO LIBRO DE LA TORA: <br><br> </h5>
+      </div>
+        
+      </div>
+    </article>
+
+
+</div> 
+</div> 
+</section>
+
+
+
+
+
+
+
+
+<!-- ================================================================= -->
+<!-- 👑 MATRIX MAESTRA: DESPUES DE LA CAIDA GEMINI VERSION 2
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    DESPUES DE LA CAIDA EN EL EDEN
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- COLUMNA 1 (CAIN Y ABEL) -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 380px; overflow: hidden; background: #111;">
+          <img src="assets/pics/cain-abel-copilot.png" alt="Caín y Abel" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+        </div>
+        
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">
+            BIOGRAFIA DE CAIN Y ABEL <br><br>
+            Conoció Adán a su mujer Eva... Y Abel fue pastor de ovejas. <br> Génesis 4:1-2
+          </h5>
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
         </div>
       </div>
-
-      <!-- Tarjeta 2: El Hijo -->
-      <div class="col-12 col-md-4">
-        <div class="card bg-dark text-white h-100 shadow-sm" style="border: 1px solid #222; background: #050505 !important;">
-          <div style="width: 100%; height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #000; padding: 0px;">
-            <img src="assets/pics/JESUS.png" class="w-100 h-100" alt="Jesucristo" style="object-fit: contain; transform: scale(1.35); transition: transform 0.3s ease;" onerror="this.src='https://placehold.co'">
-          </div>
-          <div class="card-body p-4 text-center d-flex flex-column">
-            <h5 class="card-title" style="color: #C0C0C0; font-weight: bold; letter-spacing: 1px;">ἸΗΣΟΥΣ ΧΡΙΣΤΟΣ — EL HIJO</h5>
-            <p class="text-muted small mb-3">Oficio: El Ejecutor Legal, Mediador y Juez</p>
-            <p class="text-start text-secondary mb-4" style="font-size: 0.90rem; line-height: 1.6; opacity: 0.85;">
-              Jesucristo es la Palabra hecha carne (Logos). Su tarea fue venir a la tierra a ejecutar físicamente el rescate en la Cruz. Resucitó, ascendió al Tercer Cielo y hoy actúa como nuestro Abogado real e intercesor universal ante el Padre.
-            </p>
-          </div>
-          <!-- Botones Carmesí Independientes: Abren en ventana nueva directamente -->
-          <div class="btn-group w-100" role="group" style="border-top: 1px solid #222; margin-top: auto;">
-            <a href="hijo-breve.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Breve </a>
-            <a href="hijo-intermedio.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Intermedia </a>
-            <a href="hijo-profunda.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 d-flex align-items-center justify-content-center">Lectura Profunda</a>
-          </div>
+    </article>
+    
+    <!-- COLUMNA 2 (ASESINATO DE ABEL) -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 380px; overflow: hidden; background: #111;">
+          <img src="assets/pics/cain-abel-muerte-copilot.png" alt="Caín mata a su hermano Abel" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+        </div>
+        
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">
+            CAIN MATA A SU HERMANO ABEL <br><br>
+            Y dijo: ¿Qué has hecho? La voz de la sangre de tu hermano clama a mí. <br> Génesis 4:10
+          </h5>
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+          <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+          <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
         </div>
       </div>
-
-      <!-- Tarjeta 3: El Espíritu Santo -->
-      <div class="col-12 col-md-4">
-        <div class="card bg-dark text-white h-100 shadow-sm" style="border: 1px solid #222; background: #050505 !important;">
-          <div style="width: 100%; height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #000; padding: 5px;">
-            <img src="assets/pics/ESPIRITU.png" class="w-100 h-100" alt="El Espíritu Santo" style="object-fit: cover; transform: scale(1.0);" onerror="this.src='https://placehold.co'">
-          </div>
-          <div class="card-body p-4 text-center d-flex flex-column">
-            <h5 class="card-title" style="color: #C0C0C0; font-weight: bold; letter-spacing: 1px;">ΡΟΥΑΧ ΗΑΚΟΔΕΣΗ — EL ESPÍRITU SANTO</h5>
-            <p class="text-muted small mb-3">Oficio: El Aplicador Intramundano y Conductor</p>
-            <p class="text-start text-secondary mb-4" style="font-size: 0.90rem; line-height: 1.6; opacity: 0.85;">
-              El Espíritu Santo es el Aplicador de la victoria de Cristo en el mundo. No es una energía, sino una Persona divina que habita en el creyente, iluminando su mente, dándole discernimiento y capacitándolo para la milicia espiritual diaria.
-            </p>
-          </div>
-          <!-- Botones Carmesí Independientes: Abren en ventana nueva directamente -->
-          <div class="btn-group w-100" role="group" style="border-top: 1px solid #222; margin-top: auto;">
-            <a href="espiritu-breve.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Breve </a>
-            <a href="espiritu-intermedio.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 border-end d-flex align-items-center justify-content-center" style="border-color: #a00 !important;">Lectura Intermedia </a>
-            <a href="espiritu-profunda.html" target="_blank" rel="noopener noreferrer" class="btn btn-carmesi rounded-0 d-flex align-items-center justify-content-center">Lectura Profunda</a>
-          </div>
-        </div>
+    </article>
+    
+    <!-- COLUMNA LIBRO DEL GENESIS REPETIDO EN CADA 3ER CARD -->
+    <article class="col-12 col-lg-4">
+    <div class="tarjeta">
+    <img class="tarjeta__img" src="assets/pics/Genesis-Gemini.png"
+    alt="Describir aquí lo que muestra la imagen"
+    width="800" height="600" loading="lazy">
+      <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7;">
+        <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">EL PRIMERO LIBRO DE LA TORA: <br><br> </h5>
       </div>
+        
+      </div>
+    </article>
 
+  </div> 
+</section>
+
+
+
+
+
+
+<!-- ================================================================= -->
+<!-- 👑 ACTO X: LA ESTIRPE CAINITA -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    LA DESCENDENCIA DE CAIN
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- CARD 1 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/4-cains.png" alt="Enoc, Irad, Mehujael y Metusael" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            LOS 4 PRIMEROS DE CAÍN: <br> ENOC, IRAD, MEHUJAEL, METUSAEL <br><br>
+            "Y a Enoc le nació Irad..." <br> Génesis 4:18
+          </h5>
+        </div>
+        
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/Lamec-Esposas.jpg" alt="Lamec y sus esposas Ada y Zila" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            BIOGRAFÍA DE LAMEC <br><br>
+            "Y Lamec tomó para sí dos mujeres... un varón maté por mi herida." <br> Génesis 4:19, 23
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/descendencia-Lamec-2.jpg" alt="Jabel, Jubal, Tubal-Caín y Naama" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            LOS HIJOS DE LAMEC: <br> JABEL, JUBAL Y TUBAL-CAÍN Y NAAMA<br><br>
+            Padres de los pastores, músicos y metalurgia. <br> Génesis 4:20-22
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- ================================================================= -->
+<!-- 👑 ACTO Y: LA LÍNEA DE SET, ENOC Y LOS PATRIARCAS PUENTE -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    LA DESCENDENCIA DE SET  
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- CARD 1 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/descendencia-Set.png" alt="Descendencia de Set y columnas del saber" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            EL LINAJE DE LA PROMESA: <br> DE SET A JARED <br><br>
+            Enós, Cainán, Malaleel y Jared. <br> Génesis 5:6-20
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/Enoc-Copilot.png" alt="El Arrebatamiento de Enoc" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            EL CAMINANTE DE DIOS: ENOC <br><br>
+            "Caminó, pues, Enoc con Dios, y despareció..." <br> Génesis 5:24
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/matusalen.jpg" alt="Matusalén y Lamec el setita" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            LOS PATRIARCAS PUENTE: <br> MATUSALÉN Y LAMEC <br><br>
+            De Enoc hasta el umbral del Diluvio. <br> Génesis 5:21-31
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- ================================================================= -->
+<!-- 👑 ACTO Z: EL JUICIO, EL ARCA Y EL FUNDAMENTO GENERAL -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    El ARCA, EL JUICIO Y LOS ORIGENES
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- CARD 1: NOÉ -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/Noe-Antes-Arca.png" alt="Noé y la construcción del Arca" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            EL CONSTRUCTOR DEL ARCA: NOÉ <br><br>
+            "Halla gracia ante los ojos de Jehová." <br> Génesis 6:8
+          </h5>
+        </div>
+        
+       <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+
+      </div>
+    </article>
+
+    <!-- CARD 2: DILUVIO -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/Diluvio-Universal.png" alt="El Diluvio Universal" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.92rem;">
+            EL JUICIO: EL DILUVIO UNIVERSAL <br><br>
+            "Y fueron rotas todas las fuentes del grande abismo." <br> Génesis 7:11
+          </h5>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CARD 3: GÉNESIS -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; height: 100%;">
+        <div style="width: 100%; height: 350px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/pics/Genesis-Gemini.png" alt="Libro del Génesis" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 110px; background: #fdfbf7; flex-grow: 1;">
+          <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;">
+            EL PRIMER LIBRO DE LA TORÁ <br><br> Génesis
+          </h5>
+        </div>
+        
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- ================================================================= -->
+<!-- 👑 SECCIÓN CON MARCO ORNAMENTAL RELIGIOSO -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center">
+  <div style="max-width: 900px; margin: 0 auto; padding: 30px 20px; background: #fdfbf7; border: 2px solid #ebdcd5; border-radius: 8px; box-shadow: inset 0 0 15px rgba(235, 220, 213, 0.5); position: relative;">
+    
+    <!-- Adorno superior estilo clásico/religioso -->
+    <div style="color: #b08d57; font-size: 1.2rem; margin-bottom: 15px; letter-spacing: 5px;">
+      ✦ ✝ ✦
     </div>
-  </section>
-
-
-<!-- SECCIÓN DE ANÁLISIS PROFUNDO (INTRODUCCIÓN Y CONCLUSIÓN UNIFICADAS) -->
-<section id="analisis-profundo" class="container my-5 p-4 bg-white rounded shadow-sm">
-  
-  <!-- INTRODUCCIÓN -->
-  <div id="introduccion" class="mb-5">
-    <h2 class="text-center mb-4 text-uppercase tracking-wider" style="font-family: 'Georgia', serif; color: #dc3545; letter-spacing: 2px; font-weight: bold;">
-      Introducción al Conflicto
+    
+    <h2 class="section-title text-uppercase" style="color:  #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 0; font-family: 'Georgia', serif; font-size: 1.35rem; line-height: 1.6;">
+      EXPLORAR LOS DISTINTOS ANGULOS CRISTIANOS EN:<br>
+      CINE, ARTE, SIMBOLOGIA Y MUSICA
     </h2>
-    
-    <div class="analysis-text" style="font-family: 'Georgia', serif; font-size: 1.15em; line-height: 1.8; color: #2c3e50; text-align: justify;">
-      <p>
-        Antes de que el pecado entrara en el universo, existía un orden perfecto fundado en el carácter de Dios. 
-        Jesucristo, el Hijo eterno, fue el Creador de todas las cosas visibles e invisibles, y estableció un gobierno basado en el amor, la libertad y la obediencia voluntaria a Su ley, expresión de Su propio carácter.
-      </p>
-      
-      <p>
-        La Ley de Dios no fue creada como un sistema arbitrario de control, sino como el principio que preserva la armonía entre los seres creados y su Creador. 
-        En ese contexto de perfecta libertad moral, Dios creó a los ángeles como seres inteligentes, capaces de amar, razonar y elegir.
-      </p>
-      
-      <p>
-        Dentro de ese orden divino fue creado Lucifer, un ser glorioso, sabio y hermoso, dotado de grandes capacidades y responsabilidades. 
-        Ocupaba la posición de querubín cubridor, un cargo de honor que implicaba cercanía al trono de Dios y al santuario celestial, donde se manifestaba Su presencia. 
-        Sin embargo, su elevada posición no lo hacía igual a Dios, sino una criatura dependiente de Él.
-      </p>
 
-      <h3 class="mt-4 mb-3" style="font-family: 'Georgia', serif; font-size: 1.3em; color: #dc3545; border-bottom: 2px solid #f8d7da; padding-bottom: 5px; font-weight: bold;">
-        La transgresión y el origen del pecado
-      </h3>
-      
-      <p>
-        A pesar de haber sido creado en santidad y belleza, Lucifer eligió pecar. 
-        Su caída no fue producto de una limitación impuesta por Dios, sino de una decisión deliberada: permitió que el orgullo lo llevara a centrarse en sí mismo, deseando autonomía absoluta y cuestionando la justicia de la Ley divina. 
-        De este modo, comenzó a calumniar el carácter de Dios y a atraer a otros ángeles a su rebelión.
-      </p>
-      
-      <p class="font-italic text-muted border-left pl-3" style="border-left: 3px solid #dc3545; background-color: #fff5f5; padding: 10px;">
-        El pecado de Lucifer no fue accidental ni inevitable; fue una elección consciente de usurpar una posición que solo corresponde al Creador.
-      </p>
+</div>
+</div>
 
-      <h3 class="mt-4 mb-3" style="font-family: 'Georgia', serif; font-size: 1.3em; color: #dc3545; border-bottom: 2px solid #f8d7da; padding-bottom: 5px; font-weight: bold;">
-        La Ley como expresión de amor
-      </h3>
-      
-      <p>
-        Los Diez Mandamientos revelan el principio fundamental del gobierno de Dios: el amor. 
-        Salvaguardan la relación entre Dios y Sus criaturas, y las relaciones entre los seres humanos. 
-        Cuando el egoísmo ocupa el lugar central —como ocurrió con Lucifer— el amor se distorsiona, la armonía se rompe y la vida se desintegra.
-      </p>
 
-      <h3 class="mt-4 mb-3" style="font-family: 'Georgia', serif; font-size: 1.3em; color: #dc3545; border-bottom: 2px solid #f8d7da; padding-bottom: 5px; font-weight: bold;">
-        Aplicación práctica y esperanza
-      </h3>
-      
-      <p>
-        El pecado siempre produce consecuencias destructivas, tanto en el ámbito espiritual como en las relaciones humanas. 
-        Sin embargo, Dios no abandonó a Sus criaturas. 
-        En Cristo, la gracia divina ofrece restauración, victoria sobre el pecado y la posibilidad de que la Ley sea escrita en el corazón, devolviendo la armonía que se perdió en el origen del conflicto.
-      </p>
-    </div>
-  </div>
+<!-- GRID DE MÓDULOS DE EXPLORACIÓN (IGUALADOS A LOS ACTOS) -->
+<div class="row g-4 justify-content-center mt-3">
 
-  <!-- CONCLUSIÓN -->
-  <div id="conclusion" class="mt-5 pt-4 border-top" style="border-top: 2px solid #eee;">
-    <h2 class="text-center mb-4 text-uppercase tracking-wider" style="font-family: 'Georgia', serif; color: #dc3545; letter-spacing: 2px; font-weight: bold;">
-      Conclusión
-    </h2>
-    
-    <div class="conclusion-text" style="font-family: 'Georgia', serif; font-size: 1.15em; line-height: 1.8; color: #2c3e50; text-align: justify;">
-      <p>
-        El orgullo y el egoísmo constituyen la raíz del pecado. 
-        Tanto la caída de Lucifer como episodios posteriores en la historia bíblica muestran que quebrantar la Ley de Dios destruye relaciones y separa al ser creado de la fuente de la vida. 
-        La Ley es una expresión de amor, y obedecerla implica colocar a Dios y al prójimo en el centro.
-      </p>
-      
-      <p class="text-center font-weight-bold mt-4" style="color: #b02a37; font-size: 1.2em;">
-        Solo en Cristo puede restaurarse plenamente la armonía perdida.
-      </p>
-      
-      <div class="text-center mt-5">
-        <h3 style="font-family: 'Times New Roman', serif; font-style: italic; letter-spacing: 3px; color: #856404; font-weight: bold;">
-          Soli Deo Gloria!
-        </h3>
+  <!-- TARJETA 1: CINE ESCATOLÓGICO -->
+  <article class="col-12 col-lg-3 col-sm-6">
+    <div class="tarjeta">
+      <div style="width: 100%; height: 280px; overflow: hidden; background: #fdfbf7; display: flex; align-items: center; justify-content: center;">
+        <img src="assets/pics/ofelia.png" class="card-img-top img-fluid" alt="Cine Escatológico" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy">
       </div>
-    </div>
-  </div>
-
-</section>
-
-
-  <!-- 🎨 Estilos de Botones Carmesí Clínicos (Podés pegarlo en standard.css o dejarlo aquí) -->
-  <style>
-    .btn-carmesi {
-        background-color: #cc0000 !important;
-        color: #ffffff !important;
-        font-size: 0.73rem !important;
-        font-weight: bold !important;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        padding: 12px 4px !important;
-        transition: background-color 0.2s ease;
-        text-decoration: none !important;
-    }
-    .btn-carmesi:hover {
-        background-color: #990000 !important;
-        color: #ffffff !important;
-    }
-  </style>
-
-</section>
-
-  
-
-
-
-
-
-
-  <h2 class="section-title">Marco Teológico Fundamental​</h2>
-<section class="container mt-4">
-  <div class="row g-3 justify-content-center">
-
-    <!-- Card 1: El 3er Cielo -->
-    <div class="col-6 col-md-4 col-lg-3 text-center">
-      <div class="misterio-img-box">
-        <img src="assets/pics/tercer-cielo-gpt.png" class="img-fluid" alt="El 3er Cielo">
+      <div class="tarjeta__cuerpo">
+        <h3 class="tarjeta__titulo" style="font-size: 0.95rem;">Cine y Biblia</h3>
+        <p class="tarjeta__gancho" style="font-size: 0.85rem;">Exploración escatológica a través del séptimo arte.</p>
       </div>
-      <a href="Tercercielo.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-responsive mt-2">
-        Sabias que Jehová vive en el Tercer Cielo ?
-      </a>
-    </div>
-
-    <!-- Card 2: Bio de Satanás -->
-    <div class="col-6 col-md-4 col-lg-3 text-center">
-      <div class="misterio-img-box">
-        <img src="assets/pics/aque.jpg" class="img-fluid" alt="Biografía de Satanás">
-      </div>
-      <a href="satanas.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-responsive mt-2">
-        Biografía y Rebelión de <br> Satanás
-      </a>
-    </div>
-
-  </div>
-</section>
-
-
-<section id="genesis-gap" class="mb-5">
-    <div class="row">
-      <article class="col-md-6 mb-4">
-        <div class="card shadow-sm h-100">
-          <img src="assets/pics/Genesis-Gemini.png" class="card-img-main" alt="Libro de Génesis - Portada" onerror="this.src='https://placehold.co/800x350/EEE/c00?text=Genesis'">
-          <div class="card-body text-center d-flex flex-column">
-            <h5 class="card-title">Génesis — El Primer Libro de Moisés</h5>
-            <p class="card-text">Exégesis Teológica del Génesis <br> Versiculo por Versiculo...</p>
-            <div class="mt-auto"><a href="genesis.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ir al Estudio del Génesis</a></div>
-          </div>
+      
+      <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
         </div>
-      </article>
-      <article class="col-md-6 mb-4">
-        <div class="card h-100 shadow">
-          <img src="assets/pics/Gemini_Genesis2.png" class="card-img-main" alt="Teoría del GAP en Génesis" onerror="this.src='https://placehold.co/800x350/EEE/c00?text=Teoria+GAP'">
-          <div class="card-body d-flex flex-column text-center">
-            <h5 class="card-title">La Teoría del GAP</h5>
-            <p class="card-text">Análisis Biblico de Génesis 1:1–1:2</p>
-            <div class="mt-auto"><a href="gap.html" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Ver análisis del GAP</a></div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-
-<h2 class="section-title">Trilogia Cristológica 👑​</h2>
-
-<section class="container mt-4">
-  <div class="row g-3 justify-content-center"> 
-    
-    <div class="col-6 col-md-4 col-lg-3 text-center"> 
-      <div class="misterio-img-box">
-        <img src="assets/pics/pesebre.png" class="img-fluid" alt="Natividad"> 
-      </div>
-      <a href="Dec25.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-responsive mt-2">Nacimiento del Rey Jesucristo</a>  
-    </div>
-
-    <div class="col-6 col-md-4 col-lg-3 text-center">
-      <div class="misterio-img-box">
-        <img src="assets/pics/Los3angeles.png" class="img-fluid" alt="3 Angeles"> 
-      </div>
-      <a href="3angeles.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-responsive mt-2">El Mensaje de los 3 Angeles </a>  
-    </div>
-
-  </div>
-</section>
 
 
 
-
-
-
-<main class="container-xl mt-4">
-  <article class="destacado text-center mb-5">
-    <div class="row mt-4">
-      <div class="col-12">
-        <div class="card shadow-sm">   
-          <h6 class="card-title text-center mt-2 p-2">
-            <span style="color: #c00; font-size: 18px;">ישוע הנצרי מלך היהودים <br>
-            IESVS NAZARENVS REX IVDAEORVM (INRI) <br>
-            ἸΗΣΟῪΣ Ὁ ΝΑΖΩΡΑΊΟΣ Ὁ ΒΑΣΙΛΕῪΣ ΤΩΝ ἸΟΥΔΑΊΩΝ (INBI)
-          </span></h6>
-          <div class="rey-img-box">
-            <img src="assets/pics/REYBLOG2.png" class="card-img-main rey-img" alt="El Rey Jesucristo" onerror="this.src='https://placehold.co/800x350/EEE/c00?text=El+Rey+Jesucristo'">
-          </div>
-        </div>
-        <a href="Mateo25Claude.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">¿Qué significa El Juicio del Rey y estaré yo involucrado?</a>
-      </div>
     </div>
   </article>
 
+  <!-- TARJETA 2: ARTE CON ANÁLISIS BÍBLICO -->
+  <article class="col-12 col-lg-3 col-sm-6">
+    <div class="tarjeta">
+      <div style="width: 100%; height: 280px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+        <img src="assets/pics/Jardin-Eva.png" class="card-img-top img-fluid" alt="Arte Cristológico" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+      </div>
+      <div class="tarjeta__cuerpo">
+        <h3 class="tarjeta__titulo" style="font-size: 0.95rem;">Arte y Exégesis</h3>
+        <p class="tarjeta__gancho" style="font-size: 0.85rem;">Análisis pictórico de los grandes pasajes sagrados.</p>
+      </div>
+      <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+    </div>
+  </article>
+
+  <!-- TARJETA 3: SIMBOLOGÍA & TIPOLOGÍA -->
+  <article class="col-12 col-lg-3 col-sm-6">
+    <div class="tarjeta">
+      <div style="width: 100%; height: 280px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+        <img src="assets/pics/peces.jpg" class="card-img-top img-fluid" alt="Simbología Bíblica" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+      </div>
+      <div class="tarjeta__cuerpo">
+        <h3 class="tarjeta__titulo" style="font-size: 0.95rem;">Simbología Bíblica</h3>
+        <p class="tarjeta__gancho" style="font-size: 0.85rem;">Tipología y significado profundo de los símbolos.</p>
+      </div>
+      <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+    </div>
+  </article>
+
+  <!-- TARJETA 4: MÚSICA CRISTOCÉNTRICA -->
+  <article class="col-12 col-lg-3 col-sm-6">
+    <div class="tarjeta">
+      <div style="width: 100%; height: 280px; overflow: hidden; background: #0b0b0b; display: flex; align-items: center; justify-content: center;">
+        <img src="assets/pics/subiremos.png" class="card-img-top img-fluid" alt="Música Cristocéntrica" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+      </div>
+      <div class="tarjeta__cuerpo">
+        <h3 class="tarjeta__titulo" style="font-size: 0.95rem;">Música Cristocéntrica</h3>
+        <p class="tarjeta__gancho" style="font-size: 0.85rem;">Vídeos y análisis lírico con perspectiva eterna.</p>
+      </div>
+      <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+
+    </div>
+  </article>
+
+</div>
+
+<!-- DIVISOR SUTIL -->
+<div class="text-center my-4" style="color: #800404; letter-spacing: 0.3em; font-size: 1.1rem; opacity: 0.8;">
+    ✦ ❖ ✦  <br> <br>
+</div>
+
+
+
+<!-- ACTO LOS MARTIRES -->
+<section id="quien-es-dios" class="fila-tarjetas container-xl" aria-labelledby="quien-es-dios-titulo">
+  <h2 id="quien-es-dios-titulo" class="fila-tarjetas__titulo"> DEDICADA A NUESTROS MARTIRES... </h2>
+
+
+  <div class="row g-4">
+
+    <!-- ESTEBAN -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/esteban2.jpg"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">El primer mártir: Esteban</h3> <br>
+          <p class="tarjeta__gancho">Bio de Esteban hecho por la I.A.  <br> <br>
+          </p>
+          <p class="tarjeta__ref">Hechos de los Apostolos 7:57</p>
+        </div>
+      
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+      </div>
+    </article>
+
+    <!-- SANTIAGO EL MAYOR -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/santiago-mayor.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">Santiago el Mayor </h3> <br>
+          <p class="tarjeta__gancho">Biografia del Apostol Santiago el Mayor <br> hecho por la I.A. <br> <br>
+                                     </p>
+          <p class="tarjeta__ref">Santiago 5:16</p>
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+
+
+      </div>
+    </article>
+
+    <!-- SANTIAGO EL JUSTO -->
+    <article class="col-12 col-lg-4">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="assets/pics/santiago-justo.png"
+             alt="Describir aquí lo que muestra la imagen"
+             width="800" height="600" loading="lazy">
+        <div class="tarjeta__cuerpo">
+          <h3 class="tarjeta__titulo">Santiago El Justo</h3> <br>
+          <p class="tarjeta__gancho">Biografia de Santiago el Justo el hermano de Jesus <br> hecho por la I.A.</p> <br> 
+          <p class="tarjeta__ref">Marcos 6:3</p> 
+        </div>
+        <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
+      </div>
+    </article>
+</div>
+
+
+<!-- BOTÓN MAESTRO INFERIOR: CONTINUAR LEYENDO LAS BIOGRAFÍAS (Cronología completa) -->
+<div class="row justify-content-center my-4">
+    <div class="col-12 col-md-8 col-lg-6 text-center">
+        <a href="martires.html" 
+           class="btn fw-bold text-uppercase py-3 px-4 shadow-sm text-decoration-none w-100" 
+           style="background-color: #800404 !important; color: #ffffff !important; border: 1px solid #600303; font-size: 0.85rem; letter-spacing: 1px; border-radius: 6px; transition: all 0.3s ease;">
+            <span class="me-2">📜</span> LEER MAS BIOGRAFIAS
+        </a>
+        
+    </div>
+</div>
 
 
 
 
+<!-- BOTÓN DEL DOCUMENTO PDF DE LOS MARTIRES -->
+<div class="row justify-content-center my-4">
+    <div class="col-12 col-md-8 col-lg-6 text-center">
+        <a href="https://ucis.us/PDF/8%20Historia%20de%20los%20M%C3%A1rtires.pdf" 
+           class="btn fw-bold text-uppercase py-3 px-4 shadow-sm text-decoration-none w-100" 
+           style="background-color: #800404 !important; color: #ffffff !important; border: 1px solid #600303; font-size: 0.85rem; letter-spacing: 1px; border-radius: 6px; transition: all 0.3s ease;">
+            <span class="me-2">📂</span> Consultar Archivo Histórico de Mártires (PDF)
+        </a>
+        
+    </div>
+</div>
+
+</section>
 
 
-  <section class="container mt-5">
+
+<section class="container mt-5">
   <div class="row g-3 justify-content-center">
     
     <div class="col-6 col-md-4 col-lg-3 text-center">
       <div class="misterio-img-box">
         <img src="assets/pics/portada-piedad.png" class="img-fluid misterio-poster" alt="Misterio de la Piedad"> 
+
       </div>
-      <a href="#" class="btn btn-primary btn-responsive mt-2">Análisis Teológico <br> (En Pausa)</a>  
+      <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
     </div>
 
     <div class="col-6 col-md-4 col-lg-3 text-center">
       <div class="misterio-img-box">
         <img src="assets/pics/portada-iniquidad.png" class="img-fluid misterio-poster" alt="Misterio de la Iniquidad"> 
       </div>
-      <a href="#" class="btn btn-primary btn-responsive mt-2">Análisis Teológico <br> (En Pausa)</a>  
+     <div class="tarjeta__niveles" style="background: #fdfbf7; padding: 15px; border-top: 1px solid #ebdcd5; text-align: center;">
+        <span class="tarjeta__leer--desactivado">PROXIMAMENTE</span>
+        <p class="tarjeta__otros" style="margin-top: 8px; margin-bottom: 0;"></p>
+        </div>
+
     </div>
 
   </div>
@@ -416,193 +1161,285 @@ function googleTranslateElementInit() {
 
 
 
-  <section id="misterios" class="mb-5">
-    <div class="row">
-      <article class="col-md-6 mb-3">
-        <div class="alert alert-warning text-center mb-3 shadow-sm" style="width:100%; display:flex; align-items:center; justify-content:center; border-radius:12px; overflow:hidden; font-size:18px; padding: 20px;">
-          <div>
-            ⚠️🎬🙏 Recomendamos ver la <strong>Película</strong> para el <strong>Análisis Conversacional</strong> del Misterio de la Piedad aplicado a Thomasin para posteriormente ir al <strong>Análisis Escatológico</strong><br><br>
-            <a href="https://ok.ru/group/70000006188245/topic/157377820219605" target="_blank" rel="noopener noreferrer" style="color:#c00;"><strong>The VVitch (2015)</strong><br>Director: Robert Eggers<br>País: USA, UK, Canadá</a>
-          </div>
-        </div>
-        <div class="card shadow-sm" id="seccion-piedad">
-          <img src="assets/pics/the truth.png" class="card-img-main" alt="Misterio de la Piedad" onerror="this.src='https://placehold.co/600x350/EEE/c00?text=Misterio+Piedad'">
-          <div class="card-body text-center">
-            <h6 class="card-title">Thomasin es Redimida a través del Misterio de La Piedad<br>(1 Timoteo 3:16)</h6>
-            <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">Análisis Escatológico en Pausa...</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="col-md-6 mb-3">
-        <div class="card shadow-sm h-100" id="seccion-iniquidad">
-          <img src="assets/pics/Jardin-Eva.png" class="card-img-main" alt="Misterio de la Iniquidad" onerror="this.src='https://placehold.co/600x350/EEE/c00?text=Misterio+Iniquidad'">
-          <div class="card-body text-center">
-            <h6 class="card-title">Eva es atraída a través del Misterio de la Iniquidad<br>(2 Tesalonicenses 2:7)</h6>
-            <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">Análisis Escatológico en Pausa...</a>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-<section class="text-center mt-5 mb-3">
-    <h2 style="color:#c00; font-weight:bold;">Análisis Conversacional entre T.A.R.S. y G.B.H. <br> sobre la Pelicula: The Witch</h2>
-  </section>
-
-  <section class="explicacion text-center p-4">
-    <div id="continuacion-thomasin" class="explicacion text-center mt-4">
-      <pre style="background:#f8f9fa; padding:15px; border-radius:10px; white-space: pre-wrap; text-align: left; max-width: 800px; margin: 0 auto; border: 1px solid #ddd;"><span style="color:#c00; font-weight:bold;">Dijiste:</span> bro una consulta que tengo o mas bien una duda sobre Thomasin: o sea si ella tenia un corazon bueno y era devota y buena persona y nunca quiso ser bruja entonces cual era la salida... <br><span style="color:#00a; font-weight:bold;">ChatGPT dijo:</span> Bro… esta es una de las preguntas más profundas que se le pueden hacer a The Witch (2015)... ...Su única salida era convertirse en mártir, no en bruja.</pre>
-    </div>
-    <a href="Geanca-TARS.html" class="btn btn-primary mt-2">Continúa la conversación aquí...</a>
-  </section>
-
-  <section class="container-xl mt-5">
-  <div class="row justify-content-center">
-    <aside class="col-12 col-md-4 theology-aside">
-      <h3>Fuentes de Referencia</h3>
-
-      <div class="theology-card">
-        <img src="assets/pics/pyp.png" alt="Patriarcas y Profetas" class="img-fluid">
-        <h4>Patriarcas y Profetas</h4>
-        <p>Comentario inspirado sobre los orígenes, el carácter de Dios y el Gran Conflicto.</p>
-        <a href="https://m.egwwritings.org/es/book/183/toc" target="_blank" rel="noopener noreferrer">Leer fuente</a>
-      </div>
-
-      <div class="theology-card">
-        <img src="assets/pics/conficto-de-los-siglos.png" alt="El Conflicto de los Siglos" class="img-fluid">
-        <h4>El Conflicto de los Siglos</h4>
-        <p>Marco histórico-profético del conflicto entre la luz y las tinieblas.</p>
-        <a href="https://m.egwwritings.org/es/book/1710.74#74" target="_blank" rel="noopener noreferrer">Leer fuente</a>
-      </div>
-
-      <div class="theology-card">
-        <img src="assets/pics/GenMis.jpeg" alt="Descubriendo los Misterios del Génesis" class="img-fluid">
-        <h4>Descubriendo los Misterios del Génesis</h4>
-        <p>Serie exegética del Pr. Esteban Bohr sobre los fundamentos del Génesis.</p>
-        <a href="https://adventista7.com/sermones/152/descubriendo-los-misterios-del-genesis" target="_blank" rel="noopener noreferrer">Ir a la serie</a>
-      </div>
-    </aside>
-  </div>
-</section>
 
 
 
 
 
 
+
+<!-- ================================================================= -->
+<!-- 👑 FILA FINAL: EL RELOJ DE LAS NACIONES CON IMÁGENES CLICABLES    -->
+<!-- ================================================================= -->
+<div class="container mt-5 text-center" style="font-family: 'Georgia', serif;">
+  <!-- Título Principal Carmesí Sutil -->
+  <h2 class="section-title" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px;">
+    El Avance del Cristianismo en el Planeta Tierra
+  </h2>
   
+  <!-- 🔥 TU PASAJE MAESTRO: Integrado con Aire y Simetría Sacerdotal -->
+  <div class="my-4 mx-auto" style="max-width: 650px;">
+    <p class="mb-1 fw-bold" style="font-size: 1.1rem; color: #2c3e50; line-height: 1.6; text-align: center;">
+      "...Y será predicado este evangelio del reino en todo el mundo, <br>
+      para testimonio a todas las naciones; y entonces vendrá el fin..."
+    </p>
+    <p class="text-muted mb-0 small fw-bold" style="letter-spacing: 0.5px;">Mateo 24:14</p>
+    <p class="text-muted small" style="font-size: 0.8rem; letter-spacing: 1px;">RV1960</p>
+  </div>
+</div>
 
-  <section id="fuentes" class="container-xl mt-5">
-    <div class="row g-4 mt-3 text-center">
-      <article class="col-12 col-md-3">
-        <div class="card h-100 p-3 shadow-sm hover-effect">
-          <img src="assets/pics/Holly-Bible.png" class="card-img-source" alt="Fuentes Cristianas" onerror="this.src='https://placehold.co/200x200/EEE/333?text=Biblia'">
-          <div class="card-body">
-            <h5 class="card-title">Fuentes Cristianas</h5>
-            <p>🕎 <b>YHWH</b> ✝️</p>
-            <p>📖 Biblia Reina Valera 1960</p>
-            <p>📖 Elena G. de White <strong>(Patriarcas y Profetas, Conflicto de los Siglos)</strong></p>
-            <p>📖 Pastor Esteban Bohr <strong>(Serie: Descubriendo los misterios del Génesis)</strong></p>
-            <p>📖 Pastor Alejandro Bullon <strong>(Serie: Misterio de la Iniquidad)</strong></p>
-            <p>📖 Pastor Andres Portes <strong>(Serie: Misterio de la Piedad)</strong></p>
-            <p>🫂 Agradecimiento a mi familia y a Marco Mora por su gran apoyo que Dios los bendiga !</p>
+<section id="scatologia-data-row" class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    
+
+    <!-- CARD 2: JOSHUA PROJECT -->
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card h-100 shadow-sm text-dark" style="border: 1px solid #ebdcd5; background: #fdfbf7; border-radius: 12px; overflow: hidden; font-family: 'Georgia', serif; transition: transform 0.2s ease;">
+        <a href="https://joshuaproject.net" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+          <div style="width: 100%; height: 280px; overflow: hidden; background: #000;">
+            <img src="assets/pics/JP.png" class="w-100 h-100" alt="Joshua Project" style="object-fit: cover; display: block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" onerror="this.src='https://placehold.co'">
           </div>
-        </div>
-      </article>
-      <article class="col-12 col-md-3">
-        <div class="card h-100 p-3 shadow-sm">
-          <img src="assets/pics/IA.png" class="card-img-source" alt="Fuentes Tecnológicas" onerror="this.src='https://placehold.co/200x200/EEE/333?text=IA'">
-          <div class="card-body">
-            <h5 class="card-title">Inteligencia Artificial</h5>
-            <p>🤖 TARS (GPT‑5.2) de OpenAI <br> <strong> Asistente de Dirección </strong></p>
-            <p>🤖 GEMINIS (Sonnet 5) de Anthropic <br> <strong> Analisis Biblicos y maquetacion de HTML,CSS y soporte responsivo con Bootstrap </strong></p> 
-            <p>🤖 Claude (Sonnet 4.5 / Haiku 4.5 / Thinking 3 Pro) de Anthropic <br> <strong> Analisis Biblicos </strong></p> 
-            <p>🤖 Copilot (Smart GPT‑5) de Microsoft <br> <strong> Pinturas Biblicas </strong></p>
-            <p>🤖 Gemini (3 Pro / Fast) de Google <br> <strong> Analisis de HTML,CSS y JavaScript con Bootstrap </strong></p>
+          <div class="card-body p-4 text-center d-flex align-items-center justify-content-center" style="min-height: 90px; background: #fdfbf7; border-top: 1px solid #ebdcd5;">
+            <h5 class="card-title mb-0" style="color: #2c3e50; font-weight: bold; letter-spacing: 0.5px; font-size: 0.95rem;"><i class="bi bi-box-arrow-up-right me-2 text-danger"></i> JOSHUA PROJECT: PUEBLOS NO ALCANZADOS</h5>
           </div>
-        </div>
-      </article>
-      <article class="col-12 col-md-3">
-        <div class="card h-100 p-3 shadow-sm">
-          <img src="assets/pics/angels.png" class="card-img-source" alt="Fuentes Musicales" onerror="this.src='https://placehold.co/200x200/EEE/333?text=Musica'">
-          <div class="card-body">
-            <h5 class="card-title">Fuentes Musicales</h5>
-            <p>🎵 Marcos Vidal</p>
-            <p>🎵 Jesús Adrián Romero</p>
-            <p>🎵 Oscar Medina</p>
-            <p>🎵 Peregrinos y Extranjeros</p>
-          </div>
-        </div>
-      </article>
-      <article class="col-12 col-md-3">
-        <div class="card h-100 p-3 shadow-sm">
-          <img src="assets/pics/CEA.png" class="card-img-source" alt="Fuentes Académicas" onerror="this.src='https://placehold.co/200x200/EEE/333?text=Academia'">
-          <div class="card-body">
-            <h5 class="card-title">Fuentes Académicas</h5>
-            <p>🎓 Colegio Bilingüe Adventista de Costa Rica</p>
-            <p>🎓 Universidad Latina de Costa Rica (I.S.I.)</p>
-            <p>🎓 John Hopkins University (HTML, CSS, and Java Script(Virtual))</p>
-          </div>
-        </div>
-      </article>
+        </a>
+      </div>
     </div>
-  </section>
-</main>
+</div>
+</section>
 
-<footer class="text-center py-3 mt-5" style="background-color: #c00; font-style:italic; color: white;">
+
+
+<!-- ================================================================= -->
+<!-- 📚 SECCIÓN FUENTES Y TRAYECTORIA                                  -->
+<!-- ================================================================= -->
+<div id="fuentes" class="container mt-5 text-center">
+  <h2 class="section-title text-uppercase" style="color: #800404; font-weight: bold; letter-spacing: 2px; margin-bottom: 30px; font-family: 'Georgia', serif;">
+    FUENTES
+  </h2>
+</div>
+
+<section class="container my-4 mb-5">
+  <div class="row g-4 justify-content-center">
+    
+    <!-- 1. CRISTIANAS -->
+    <article class="col-12 col-md-4">
+      <div class="card h-100 p-3 shadow-sm" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; font-family: 'Georgia', serif;">
+        <img src="assets/pics/Holly-Bible.png" class="card-img-source" alt="Fuentes Cristianas" style="object-fit: contain; max-height: 180px;" onerror="this.src='https://placehold.co/200x200/EEE/333?text=Biblia'">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold text-uppercase mb-3" style="color: #800404;">Cristianas</h5>
+          <p> 🕎 <b> Elohim ✝️</p>
+          <ul class="list-unstyled small text-secondary" style="line-height: 1.8;">
+            <li>Biblia Reina Valera 1960 (RV1960)</li>
+            <li>Biblia Reina Valera Versión Moderna (RVM) </b> </li>
+          </ul>
+          <p class="small mt-3 fst-italic text-muted" style="font-size: 0.85rem;">
+            Agradecimiento a mi madre Barby, a mi hermana Karen, a mi cuñado Ted, a mis sobrinos Stephano y Mateo que Dios los bendiga y gracias por su apoyo los km ❤️ 
+            
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2. INTELIGENCIAS ARTIFICIALES -->
+    <article class="col-12 col-md-4">
+      <div class="card h-100 p-3 shadow-sm" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; font-family: 'Georgia', serif;">
+        <img src="assets/pics/robot.png" class="card-img-source" alt="Inteligencias Artificiales" style="object-fit: contain; max-height: 180px;" onerror="this.src='https://placehold.co/200x200/EEE/333?text=IA'">
+        <div class="card-body">
+        <h5 class="card-title fw-bold text-uppercase mb-3" style="color: #800404;">Inteligencias Artificiales</h5>
+        <p>֎TARS™ (GPT‑5.2) de OpenAI <br> <strong> Asistente de Dirección </strong></p>
+        <p>✴️ Genesis™ (Sonnet 5) de Anthropic aplicado a Google AI <br> <strong> Analisis Biblicos, Maquetacion de Html,CSS y soporte responsivo con Bootstrap </strong></p> 
+        <p>✴️ Gamaliel™ (Sonnet 5.5 Max) de Anthropic <br> <strong> Analisis Biblicos Interdisciplinarios y Productor Ejecutivo </strong></p> 
+        <p>🪟 Co-pilot (Smart GPT‑5) de Microsoft <br> <strong> Pinturas Biblicas </strong></p>
+        <p>❇️ Gemini (3 Pro / Fast) de Google <br> <strong> Codigo Html,CSS y JavaScript </strong></p>
+        
+          </div>
+
+
+
+
+        </div>
+      </article>
+    
+
+    <!-- 3. ACADÉMICAS -->
+    <article class="col-12 col-md-4">
+      <div class="card h-100 p-3 shadow-sm" style="background: #fdfbf7; border: 1px solid #ebdcd5; border-radius: 12px; font-family: 'Georgia', serif;">
+        <img src="assets/pics/Ulatina.png" class="card-img-source" alt="Fuentes Académicas" style="object-fit: contain; max-height: 180px;" onerror="this.src='https://placehold.co/200x200/EEE/333?text=Academia'">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold text-uppercase mb-3" style="color: #800404;">Académicas</h5>
+          
+          <div class="d-flex align-items-center justify-content-center gap-2 mb-3 text-start">
+            <span class="p-1 bg-white border rounded shadow-sm d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; flex-shrink: 0;">
+              <img src="assets/pics/CEA.png" alt="CEA" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            </span>
+            <span class="small text-secondary lh-sm"> <b>Colegio Bilingüe Adventista de Costa Rica</b></span>
+          </div>
+         <br> 
+          <div class="d-flex align-items-center justify-content-center gap-2 mb-3 text-start">
+            <span class="p-1 bg-white border rounded shadow-sm d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; flex-shrink: 0;">
+              <img src="assets/pics/Ulatina.png" alt="Ulatina" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            </span>
+            <span class="small text-secondary lh-sm"><b>Universidad Latina de Costa Rica (I.S.I.)</b></span>
+          </div> <br>
+
+          <div class="d-flex align-items-center justify-content-center gap-2 text-start">
+            <span class="p-1 bg-white border rounded shadow-sm d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; flex-shrink: 0;">
+              <img src="assets/pics/JH.png" alt="Johns Hopkins" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            </span>
+            <span class="small text-secondary lh-sm"><b>John Hopkins University (Html, Css, JS Virtual)</b></span> 
+          </div>
+           <br> <br>
+          <p> <!-- Sello micro: Mantiene su fondo negro nativo y maximiza el brillo claro de tus letras plateadas -->
+       <span class="logo-wrapper-black" style="background-color: #000000; padding: 1px 4px; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; ;margin: 0 4px; box-shadow: 0 0 6px rgba(255, 255, 255, 0.15);">
+        <img src="assets/pics/gbh2.jpg" alt="GBH Logo" class="footer-logo" style="height: 1.8em; display: block; width: auto; object-fit: contain; mix-blend-mode: screen; filter: brightness(2.5) contrast(1.2);" onerror="this.src='https://placehold.co'">
+      </span>   
+              Corporation: <br> <br> <b> Direccion, Edicion, Diseño UX/UI e Ing. Inversa. <br> Backend: Python y SQL Server 2012 R2. <br> Frontend: Html, Css y JavaScript </b></p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- QR -->
+<div class="qr-box">
+  <div class="qr-card">
+    
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://el-alfa-y-el-omega.netlify.app//" alt="QR">
+  </div>
+</div>
+
+
+
+
+<footer class="text-center py-3 mt-5" style="background-color: #800404; font-style:italic; color: white;">
     
          <p class="mb-2" style="font-style: italic; font-size: 0.95rem; line-height: 2;">
-      Web Site creado y actualizado por: <br>
-      T.A.R.S.™ (ChatGPT-5.2),  
+      Web Site dirigido y actualizado por:   
       
       <!-- Sello micro: Mantiene su fondo negro nativo y maximiza el brillo claro de tus letras plateadas -->
        <span class="logo-wrapper-black" style="background-color: #000000; padding: 1px 4px; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; margin: 0 4px; box-shadow: 0 0 6px rgba(255, 255, 255, 0.15);">
         <img src="assets/pics/gbh2.jpg" alt="GBH Logo" class="footer-logo" style="height: 1.8em; display: block; width: auto; object-fit: contain; mix-blend-mode: screen; filter: brightness(2.5) contrast(1.2);" onerror="this.src='https://placehold.co'">
-      </span>
-      (Geanca) and GENESIS™ (Claude 5 Sonnet) <br>
-      Ultima actualizacion: Martes 15 de Setiembre del 2026 a las 22:30 hora de Costa Rica
+      </span> <br>
+      
+      Ultima actualizacion: Miercoles 18 de Noviembre del 2026 a las 11:22am (hora de Costa Rica) <br>
+      Email: geanca@gmail.com    
     </p> 
     
 <b> 1ª de Corintios 3:6-7: Yo planté, Apolos regó; pero el crecimiento lo ha dado Dios. <br>
-    Así que ni el que planta es algo, ni el que riega, sino Dios, que da el crecimiento.🌱</b> <br>
-    © 2025-2026 Blog Cristológico
+    Así que ni el que planta es algo, ni el que riega, sino Dios, que da el crecimiento.🌱</b> <br><br>
+    © 2025-2026 Página Cristológica
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Script del Motor de Datos (Mantener al final del body) -->
-  <script>
-    const trinityDB = {
-        intro: {
-            padre: "YHWH es el Diseñador soberano del plan de redención. Él decreta la creación desde el Génesis y comanda las huestes invisibles (Tzevaot). Toda la historia brota de Su voluntad eterna.",
-            hijo: "Jesucristo es la Palabra hecha carne (Logos). Su tarea fue venir a la tierra a ejecutar físicamente el rescate en la Cruz. Resucitó, ascendió al Tercer Cielo y hoy actúa como nuestro Abogado real e intercesor universal ante el Padre.",
-            espiritu: "El Espíritu Santo es el Aplicador de la victoria de Cristo en el mundo. No es una energía, sino una Persona divina que habita en el creyente, iluminando su mente, dándole discernimiento y capacitándolo para la milicia espiritual diaria."
-        },
-        inter: {
-            padre: "Dios el Padre es el Diseñador Cósmico. Establece los pactos con fidelidad inquebrantable. Su título bíblico 'YHWH Tzevaot' demuestra que comanda consejos celestiales e invisibles, intensificándose en las crisis históricas para recordarle al hombre que la impotencia terrenal o política no limita el poder absoluto del Creador.",
-            hijo: "Jesucristo une perfectamente la doble naturaleza como Dios verdadero y Hombre verdadero (Unión Hipostática). Su oficio es judicial y reconciliador: como Mediador (Mesītēs), se coloca entre Dios y los hombres, presentando Su propio sacrificio expiatorio (Hilasmos) como el argumento legal invencible de nuestra defense.",
-            espiritu: "El Espíritu Santo (Ruaj HaKódesh / Pneuma Hágion) opera de forma activa en la historia presente. Su tarea es tomar los méritos ganados por Cristo en la cruz y aplicarlos directamente al alma humana mediante la regeneración, el testimonio interno filial, la intercesión y la dotación de dones carismáticos estructurados para el beneficio de la iglesia."
-        },
-        expert: {
-            padre: "EXÉGESIS FORENSE: El Tetragrámaton consonántico (YHWH) revela al Dios autoexistente ligado a Éxodo 3:14. Su acoplamiento litúrgico con 'Tzevaot' (~285 veces en el texto masorético) emerge históricamente en el santuario de Silo. Funciona como un epíteto de resistencia identitaria: cuando el poder militar de Israel colapsa ante los imperios paganos, la teología Sion-Sabaot afirma que el Comandante de las Huestes invisibles permanece invicto por encima de los ejércitos astrales y del caos babilónico.",
-            hijo: "CRISTOLOGÍA LINGÜÍSTICA: El prólogo joánico rompe la sintaxis estándar en Juan 1:1 con 'theos ēn ho logos' (predicado nominativo pre-verbal), distinguiendo la persona del Hijo del Padre sin fragmentar la esencia divina. En Filipenses 2:6-7, la 'Kenosis' se revela mediante el participio presente 'hyparchōn' (existiendo en forma de Dios) combinado con el aoristo 'labōn' (tomando forma de siervo); un vaciamiento por adición condescendiente, jamás por sustracción ontológica. Él es el Mesītēs (Mediador) y Kritēs (Juez) supremo: el tribunal final está presidido por el Hijo del Hombre, garantizando un juicio administrado por el mismo Dios que porta las cicatrices del sacrificio.",
-            espiritu: "PNEUMATOLOGÍA CLÍNICA: La exégesis desmitifica las transiciones morfológicas del término. Aunque 'Ruaj' es femenino en hebreo, 'Pneuma' es strictly neutro en griego. Sin embargo, en los discursos del Paráclito (Juan 16:13), la Escritura ejecuta una violación técnica de concordancia al utilizar el demostrativo masculino 'ekeinos' (Aquel), blindando textualmente la personeidad del Espíritu frente a interpretaciones racionalistas de una fuerza impersonal. Su acción es la consumación de la Trinidad Económica: efectúa la iluminación cognitiva del creyente y la intercesión inefable documentada en Romanos 8."
-        }
-    };
 
-    function switchLevel(level) {
-        document.querySelectorAll('.btn-group .btn').forEach(btn => btn.classList.remove('active'));
-        document.getElementById('btn-' + level).classList.add('active');
-        document.getElementById('text-padre').innerHTML = trinityDB[level].padre;
-        document.getElementById('text-hijo').innerHTML = trinityDB[level].hijo;
-        document.getElementById('text-espiritu').innerHTML = trinityDB[level].espiritu;
+<script>
+  function toggleMenuBanderas(e) {
+    if (e) e.stopPropagation();
+    const menu = document.getElementById('desplegableBanderas');
+    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+  }
+
+  function seleccionarIdioma(codigo, e) {
+    if (e) e.preventDefault();
+    
+    // Asigna la cookie de Google Translate para forzar el cambio de idioma
+    document.cookie = "googtrans=/es/" + codigo + "; path=/;";
+    document.cookie = "googtrans=/es/" + codigo + "; domain=" + document.domain + "; path=/;";
+    
+    // Oculta el menú y recarga la página para aplicar la traducción
+    document.getElementById('desplegableBanderas').style.display = 'none';
+    location.reload();
+  }
+
+  // Cierra la cascada automáticamente al hacer clic fuera del menú
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('desplegableBanderas');
+    if (menu && !menu.contains(e.target)) {
+      menu.style.display = 'none';
     }
+  });
+</script>
 
-    const currentOnload = window.onload;
-    window.onload = function() {
-        if (currentOnload) currentOnload();
-        switchLevel('intro');
-    };
-  </script>
+
+
+
+
+<!-- SCRIPT DE AUTENTICACIÓN DE FIREBASE PARA EL FORO -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { 
+    getAuth, 
+    signInWithPopup, 
+    GoogleAuthProvider, 
+    GithubAuthProvider, 
+    FacebookAuthProvider, 
+    signOut, 
+    onAuthStateChanged 
+  } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+  // 1. Configuración de tu proyecto en Firebase Console
+  const firebaseConfig = {
+    apiKey: "TU_API_KEY_AQUI",
+    authDomain: "tu-proyecto.firebaseapp.com",
+    projectId: "tu-proyecto",
+    storageBucket: "tu-proyecto.appspot.com",
+    messagingSenderId: "TU_SENDER_ID",
+    appId: "TU_APP_ID"
+  };
+
+  // Inicializar Firebase
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  // Proveedores de autenticación
+  const googleProvider = new GoogleAuthProvider();
+  const githubProvider = new GithubAuthProvider();
+  const facebookProvider = new FacebookAuthProvider();
+
+  // Funciones globales para los botones de las redes
+  window.loginConGoogle = () => {
+    signInWithPopup(auth, googleProvider).catch((error) => console.error("Error Google:", error));
+  };
+
+  window.loginConGithub = () => {
+    signInWithPopup(auth, githubProvider).catch((error) => console.error("Error GitHub:", error));
+  };
+
+  window.loginConFacebook = () => {
+    signInWithPopup(auth, facebookProvider).catch((error) => console.error("Error Facebook:", error));
+  };
+
+  window.cerrarSesion = () => {
+    signOut(auth).catch((error) => console.error("Error al salir:", error));
+  };
+
+  // Monitorear sesión en tiempo real
+  onAuthStateChanged(auth, (user) => {
+    const loginCard = document.getElementById('foro-auth-container'); // ID de tu caja de login
+    const userInfo = document.getElementById('user-info');
+    const userName = document.getElementById('user-name');
+
+    if (user) {
+      if (loginCard) loginCard.style.display = 'none';
+      if (userInfo) userInfo.style.display = 'block';
+      if (userName) userName.textContent = user.displayName;
+    } else {
+      if (loginCard) loginCard.style.display = 'block';
+      if (userInfo) userInfo.style.display = 'none';
+    }
+  });
+</script>
+
+
+
+
 
 </body>
 </html>

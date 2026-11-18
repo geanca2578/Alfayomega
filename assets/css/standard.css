@@ -160,3 +160,106 @@ footer {
   background-color: #800404;
   margin: 22px auto 0 auto;
 }
+
+
+    .btn-carmesi {
+        background-color: #cc0000 !important;
+        color: #ffffff !important;
+        font-size: 0.73rem !important;
+        font-weight: bold !important;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding: 12px 4px !important;
+        transition: background-color 0.2s ease;
+        text-decoration: none !important;
+    }
+    .btn-carmesi:hover {
+        background-color: #990000 !important;
+        color: #ffffff !important;
+    }
+
+.ref-personaje{
+    color:blue;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.ref-personaje:hover{
+    text-decoration:underline;
+}
+
+/* Mantiene los saltos de línea del código pero con ajuste de línea automático (evita scroll) */
+.contenido-exegesis {
+  white-space: pre-line;
+  word-break: break-word;
+}
+
+.theology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  /* Modificá esta línea para aumentar el tamaño de toda la tabla 👇 */
+  font-size: 1.25rem; 
+}
+
+.theology-table th {
+  font-size: 1.35rem; /* Un toque más grande para resaltar el encabezado */
+  font-weight: bold;
+}
+
+
+.tarjeta__leer {
+  background-color: #800404 !important;
+  color: #ffffff !important;
+  
+}
+
+
+.cuerpo-analisis { font-size: 1.1rem; text-align: justify; color: #222; }
+@media (max-width: 600px) { .cuerpo-analisis { text-align: left; } }
+
+
+
+
+/* ===== AGREGADOS PARA ANÁLISIS GAMALIEL ===== */
+h3 { color: #a00000; margin-top: 1.8rem; }
+
+[lang="grc"] { font-family: "SBL Greek", "Gentium Plus", "Palatino Linotype", Georgia, serif; font-style: normal; }
+[lang="he"]  { font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif; font-style: normal; direction: rtl; unicode-bidi: isolate; }
+.tr { font-style: italic; color: #555; }
+
+.veredicto { background: #fff4f1; border: 1px solid #e3b5ab; border-left: 6px solid #800404; padding: 1rem 1.25rem; margin: 1.5rem 0 2.5rem; border-radius: 4px; }
+.veredicto p { margin: .4rem 0; }
+
+.etq { display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .06em; padding: 1px 7px; border-radius: 10px; vertical-align: middle; color: #fff; font-style: normal; font-family: system-ui, sans-serif; }
+.etq-texto { background: #1f6b3a; }
+.etq-historico { background: #1f4f8a; }
+.etq-academico { background: #5b3a8a; }
+.etq-tradicion { background: #a86a00; }
+.etq-especulacion { background: #8a1f1f; }
+
+blockquote.original { font-style: normal; background: #fafafa; }
+.apoyo { background: #f3f3f3; border-left: 4px solid #999; padding: .8rem 1.1rem; margin: 1.2rem 0; font-size: 1.05rem; border-radius: 4px; }
+.lectura-adventista { background: #fffaf0; border: 1px solid #e6d3a3; padding: 1rem 1.25rem; border-radius: 4px; }
+.sin-base { color: #8a1f1f; font-style: italic; }
+.aplicacion { border-top: 2px solid #800404; margin-top: 2rem; padding-top: 1rem; }
+.tabla-scroll { overflow-x: auto; }
+
+@media (max-width: 600px) {
+  body { margin: 16px; font-size: 1.1rem; }
+  .hero-escatologico { margin: -16px -16px 24px -16px; padding: 40px 16px; }
+  .hero-escatologico h1 { font-size: 1.9rem; }
+  .theology-table, .theology-table th { font-size: 1rem; }
+}
+
+
+/* =====================================================
+   JERARQUÍA DE TÍTULOS - IDENTIDAD CARMESÍ
+   ===================================================== */
+.cuerpo-analisis h1,
+.cuerpo-analisis h2,
+.cuerpo-analisis h3,
+body h2,
+body h3 {
+  color: #800404 !important;
+}

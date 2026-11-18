@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog Cristológico sobre escatología, misterios bíblicos y teología.">
+  <meta name="keywords" content="Blog cristiano,Blog Cristologico,Blog Cristocentrico, teología, exegesis, escatología,Biblia, misterios, fe, Apocalipsis, Génesis">
+  <meta name="author" content="Geanca">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Blog Cristológico">
+  <meta property="og:description" content="Analisis Biblicos, Megaexegesis, Trilogia Cristológica, Estudio del Genesis, Misterios Biblicos y mas">
+  <meta property="og:image" content="https://geanca47.github.io/Blog-Beta/assets/pics/REYBLOG2.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://geanca47.github.io/Blog-Beta/">
+  <title>Blog Cristologico | Cristo vino | Cristo advierte | Cristo reinará</title>
+  <link rel="stylesheet" href="assets/css/backup.css">
+  <link rel="stylesheet" href="assets/css/standard.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="icon" href="assets/favicon/biblia.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/favicon/biblia.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SM5GYFRVN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4SM5GYFRVN');
+  </script>
+
+<script type="text/javascript" src="https://google.com"></script>
+</head>
+
+<body>
+    
+
+<!-- 🏛️ CONTENIDO PRINCIPAL CENTRADO Y RESPONSIVO -->
+<main class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-10 col-xl-9">
+      
+      <!-- Tarjeta solemne con borde carmesí superior -->
+      <div class="card p-4 p-md-5 shadow-sm border-0 bg-light" style="border-top: 5px solid #c00000 !important; border-radius: 0px;">
+        
+        <div class="fs-5 lh-lg text-dark" style="text-align: justify; font-family: 'Georgia', serif;">
+          
+          <p class="lead fw-bold mb-4 text-dark" style="font-size: 1.4rem;">
+            ¡Hola! Hermano o hermana, ¡que Dios te bendiga!
+          </p>
+          
+          <p class="mb-4">
+            Somos simples instrumentos de Dios cuyo propósito es difundir el Evangelio a través de una plataforma innovadora, accesible y de lectura ágil. Nuestro recorrido abarca desde el Tercer Cielo —la morada de Dios— hasta el fin del tiempo de la humanidad, ofreciendo un análisis exhaustivo e interdisciplinario de la Escritura.
+          </p>
+          
+          <p class="mb-4">
+            A diferencia del orden lineal de los libros en el canon bíblico tradicional, esta plataforma integra la vanguardia tecnológica de la inteligencia artificial con la dirección de un servidor seguidor de Cristo, para transmitir la Palabra de Dios de manera armónica, rigurosa y cronológica.
+          </p>
+          
+          <p class="mb-4">
+            Esperamos que estas lecturas sean de profunda edificación tanto para usted como para su hogar, recordando lo que declara la Santa Palabra:
+          </p>
+          
+          <!-- Bloque destacado para la declaración de Josué -->
+          <div class="p-3 my-4 border-start border-danger border-4 bg-white shadow-sm" style="font-style: italic;">
+            "Pero yo y mi casa serviremos a Jehová" — <strong>Josué 24:15</strong>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+    </div>
+  </div>
+</main>

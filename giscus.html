@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Cristológico</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Merriweather (Serif clásico) e Inter (Sans-serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        burgundy: {
+                            800: '#7a0000',
+                            900: '#5a0000',
+                        },
+                        cream: '#fbf9f4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #e5e5e5;
+            font-family: 'Merriweather', Georgia, serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800 flex flex-col items-center">
+
+    <!-- Top Bar / Navbar Granate -->
+    <header class="w-full bg-burgundy-800 text-white shadow-md">
+        <div class="max-w-5xl mx-auto px-4 h-12 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- Logo tipo cubo 3D -->
+                <div class="w-7 h-7 border border-white/40 flex items-center justify-center bg-black/20 font-bold text-xs">
+                    <svg class="w-5 h-5 text-slate-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M21 16.04V7.96C21 7.23 20.61 6.55 19.98 6.18L13 2.18C12.38 1.82 11.62 1.82 11 2.18L4.02 6.18C3.39 6.55 3 7.23 3 7.96V16.04C3 16.77 3.39 17.45 4.02 17.82L11 21.82C11.62 22.18 12.38 22.18 13 21.82L19.98 17.82C20.61 17.45 21 16.77 21 16.04Z"/>
+                        <path d="M3.27 6.96L12 12.01L20.73 6.96"/>
+                        <path d="M12 22.08V12"/>
+                    </svg>
+                </div>
+                <span class="font-serif font-bold text-lg tracking-wide hidden sm:inline">Lógica</span>
+            </div>
+            <nav class="flex space-x-6 text-sm font-sans font-medium">
+                <a href="#" class="hover:underline">Inicio</a>
+                <a href="#" class="hover:underline">Glosario</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenedor Principal Estilo Tarjeta Crema -->
+    <main class="w-full max-w-4xl my-6 p-4 sm:p-8 bg-cream border border-stone-200 shadow-xl rounded-sm space-y-6">
+
+        <!-- 1. Bloque de Autenticación / Acceso -->
+        <section class="bg-cream/40 border border-stone-200/80 rounded p-6 text-center max-w-xl mx-auto space-y-4">
+            <h2 class="text-xl sm:text-2xl font-serif text-burgundy-800 font-bold tracking-tight">
+                Acceso al Foro Cristológico
+            </h2>
+            <p class="text-xs sm:text-sm text-stone-600 font-serif leading-relaxed">
+                Inicia sesión con tu red social preferida para participar en los debates teológicos:
+            </p>
+
+            <div class="space-y-2.5 max-w-md mx-auto pt-2 font-sans font-semibold text-sm">
+                <!-- Botón Google -->
+                <button class="w-full flex items-center justify-center gap-3 py-2.5 px-4 bg-white border border-stone-400 text-stone-800 rounded shadow-sm hover:bg-stone-50 transition">
+                    <svg class="w-4 h-4" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <span>Continuar con Google</span>
+                </button>
+
+                <!-- Botón GitHub -->
+                <button class="w-full flex items-center justify-center gap-3 py-2.5 px-4 bg-[#24292e] text-white rounded shadow-sm hover:bg-black transition">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                    </svg>
+                    <span>Continuar con GitHub</span>
+                </button>
+
+                <!-- Botón Facebook -->
+                <button class="w-full flex items-center justify-center gap-3 py-2.5 px-4 bg-[#1877f2] text-white rounded shadow-sm hover:bg-blue-700 transition">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    <span>Continuar con Facebook</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 2. Bloque Informativo con Borde Vino Tinto Superior -->
+        <section class="border-t-2 border-burgundy-800 bg-white/50 p-6 text-center text-stone-700 text-sm font-serif border border-stone-200">
+            Comparta sus hallazgos, dudas y exégesis con otros lectores de la Palabra. Requiere verificación de identidad:
+        </section>
+
+        <!-- 3. Caja de Entrada de Aportes / Integradora Giscus -->
+        <section class="bg-white/60 border border-stone-200 rounded p-5 space-y-4 shadow-sm">
+            <div class="text-xs text-stone-600 font-sans space-y-1">
+                <p>Queres compartir tus ideas o tienes dudas o consutas acerca de cualquier tema bíblico ? <span class="text-red-600 font-bold">[MODO SANDBOX ACTIVADO]</span></p>
+            </div>
+
+            <!-- Área donde carga Giscus oficialmente -->
+            <div class="giscus-container">
+                <script src="https://giscus.app/client.js"
+                        data-repo="TU_USUARIO/TU_REPOSITORIO"
+                        data-repo-id="R_kgDOH..."
+                        data-category="General"
+                        data-category-id="DIC_kwDOH..."
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="top"
+                        data-theme="light"
+                        data-lang="es"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </section>
+
+        <!-- 4. Ejemplos de Comentarios / Hilos Existentes -->
+        <section class="space-y-4 pt-2">
+
+            <!-- Comentario 1 (Borde Vino Tinto) -->
+            <article class="bg-white border-l-4 border-l-burgundy-800 border border-stone-200 p-4 shadow-sm space-y-2">
+                <div class="flex items-center justify-between text-xs font-sans">
+                    <div class="flex items-center space-x-2">
+                        <span class="w-3 h-3 rounded-full bg-red-800 inline-block"></span>
+                        <h4 class="font-bold text-stone-900 text-sm font-serif">Marco_Mora_77</h4>
+                    </div>
+                    <span class="text-stone-500 font-serif">Ayer</span>
+                </div>
+                <p class="text-xs sm:text-sm text-stone-700 font-serif leading-relaxed">
+                    Mae, me puse a revisar a fondo las citas del libro de Éxodo que pusiste en el tríptico y es increíble cómo la geografía del Mar Rojo confirma que no había salida humana. O era el milagro divino o la aniquilación por el ejército de Faraón. Obliga a pensar en las decisiones límite de nuestra vida actual.
+                </p>
+            </article>
+
+            <!-- Comentario 2 (Borde Gris / Azul Oscuro) -->
+            <article class="bg-white border-l-4 border-l-slate-600 border border-stone-200 p-4 shadow-sm space-y-2">
+                <div class="flex items-center justify-between text-xs font-sans">
+                    <div class="flex items-center space-x-2">
+                        <span class="w-3 h-3 rounded-full bg-slate-500 inline-block"></span>
+                        <h4 class="font-bold text-stone-900 text-sm font-serif">Valeska_ISI</h4>
+                    </div>
+                    <span class="text-stone-500 font-serif">Hace 2 días</span>
+                </div>
+                <p class="text-xs sm:text-sm text-stone-700 font-serif leading-relaxed">
+                    Analizando la letra de 'Bendecida' de Héroes del Silencio como sugeriste en la Card musical, es impactante notar el vacío existencial que Bunbury describe. Estaba leyendo el Génesis a la par y calza exacto con el dolor de la separación del Creador tras el quiebre del Edén. Buenísimo el enfoque de ingeniería inversa.
+                </p>
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

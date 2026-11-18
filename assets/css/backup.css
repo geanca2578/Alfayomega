@@ -15,7 +15,7 @@ body {
 
 
 .navbar-custom {
-  background-color: #c00;
+  background-color: #800404;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   padding-top: 0 !important;    /* Elimina el espacio vacío de arriba */
   padding-bottom: 0 !important; /* Elimina el espacio vacío de abajo */
@@ -310,3 +310,370 @@ body {
   }
 }
 
+/* =====================================================================
+   BIENVENIDA (portada)
+   Agregar al FINAL de assets/css/backup.css.
+   Todos los selectores empiezan con .bienvenida para ganarle en
+   especificidad a las reglas globales de standard.css (h1, a, ol, section)
+   y al reinicio de Bootstrap, que se carga después.
+   ===================================================================== */
+
+.bienvenida {
+  --bv-carmesi: #800404;
+  --bv-carmesi-osc: #5e0303;
+  --bv-pergamino: #fdfbf7;
+  --bv-borde: #ebdcd5;
+  --bv-tinta: #2b2b2b;
+  --bv-gris: #5a5a5a;
+  --bv-dorado: #7a5c1e;           /* referencias bíblicas: 6:1 sobre pergamino */
+  margin: 0 0 3rem;
+  scroll-margin-top: 84px;        /* la barra de navegación es fija */
+}
+
+/* ---- Panel: misma regla lateral carmesí que .theology-aside ---- */
+.bienvenida .bienvenida__panel {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  background: var(--bv-pergamino);
+  border: 1px solid var(--bv-borde);
+  border-left: 6px solid var(--bv-carmesi);
+  border-radius: 8px;
+  font-family: 'Georgia', 'Garamond', serif;
+  color: var(--bv-tinta);
+  text-align: left;
+}
+
+/* ---- Texto ---- */
+.bienvenida .bienvenida__titulo {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2rem, 5vw, 2.85rem);
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--bv-carmesi);
+  text-align: left;
+}
+
+.bienvenida .bienvenida__lead {
+  margin: 0 0 1rem;
+  font-size: 1.3rem;
+  line-height: 1.55;
+}
+
+.bienvenida .bienvenida__texto {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.bienvenida .bienvenida__ref {
+  color: var(--bv-dorado);
+  white-space: nowrap;
+}
+
+/* ---- El hilo: tres pasos unidos por una línea ---- */
+.bienvenida .bienvenida__hilo {
+  list-style: none;
+  counter-reset: paso;
+  margin: 1.75rem 0 2rem;
+  padding: 0 0 0 2.75rem;
+}
+
+.bienvenida .bienvenida__hilo li {
+  counter-increment: paso;
+  position: relative;
+  margin: 0 0 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.bienvenida .bienvenida__hilo li:last-child {
+  margin-bottom: 0;
+}
+
+/* círculo numerado */
+.bienvenida .bienvenida__hilo li::before {
+  content: counter(paso);
+  position: absolute;
+  left: -2.75rem;
+  top: 0.05rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid var(--bv-carmesi);
+  border-radius: 50%;
+  background: var(--bv-pergamino);
+  color: var(--bv-carmesi);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+/* línea que baja hasta el siguiente círculo */
+.bienvenida .bienvenida__hilo li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: calc(-1.75rem - 1px);
+  top: 2.1rem;
+  bottom: -1.15rem;
+  width: 2px;
+  background: var(--bv-carmesi);
+  opacity: 0.35;
+}
+
+/* ---- Acciones ---- */
+.bienvenida .bienvenida__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.75rem;
+}
+
+.bienvenida .bienvenida__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.7rem 1.9rem;
+  border: 2px solid var(--bv-carmesi);
+  border-radius: 8px;
+  background: var(--bv-carmesi);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.bienvenida .bienvenida__btn:hover {
+  background: var(--bv-carmesi-osc);
+  border-color: var(--bv-carmesi-osc);
+  color: #fff;
+  text-decoration: none;
+}
+
+.bienvenida .bienvenida__enlace {
+  color: var(--bv-carmesi);
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.bienvenida .bienvenida__enlace:hover {
+  color: var(--bv-carmesi-osc);
+}
+
+.bienvenida .bienvenida__btn:focus-visible,
+.bienvenida .bienvenida__enlace:focus-visible {
+  outline: 3px solid var(--bv-tinta);
+  outline-offset: 3px;
+}
+
+/* ---- Notas al pie del panel ---- */
+.bienvenida .bienvenida__notas {
+  margin-top: 1.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bv-borde);
+}
+
+.bienvenida .bienvenida__notas p {
+  margin: 0 0 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--bv-gris);
+}
+
+.bienvenida .bienvenida__notas p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Transición solo si la persona no pidió menos movimiento ---- */
+@media (prefers-reduced-motion: no-preference) {
+  .bienvenida .bienvenida__btn {
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+  }
+}
+
+/* ---- Celular ---- */
+@media (max-width: 480px) {
+  .bienvenida .bienvenida__panel {
+    border-left-width: 4px;
+  }
+  .bienvenida .bienvenida__acciones .bienvenida__btn {
+    width: 100%;
+  }
+  .bienvenida .bienvenida__lead {
+    font-size: 1.2rem;
+  }
+}
+
+.fila-tarjetas {
+  --t-carmesi: #800404;
+  --t-pergamino: #fdfbf7;
+  --t-borde: #ebdcd5;
+  --t-azul: #1f3550;
+  --t-tinta: #2b2b2b;
+  --t-gris: #5a5a5a;
+  --t-dorado: #7a5c1e;
+  margin: 0 auto 3rem;
+  scroll-margin-top: 84px;
+}
+
+.fila-tarjetas .fila-tarjetas__titulo {
+  margin: 0 0 1.5rem;
+  font-family: 'Georgia', serif;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 700;
+  color: var(--t-carmesi);
+  text-align: center;
+}
+
+/* La tarjeta ocupa toda la altura de la columna: así los botones quedan alineados */
+.fila-tarjetas .tarjeta {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--t-pergamino);
+  border: 1px solid var(--t-borde);
+  border-radius: 10px;
+  font-family: 'Georgia', 'Garamond', serif;
+  color: var(--t-tinta);
+}
+
+.fila-tarjetas .tarjeta__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #1c1612;
+}
+
+.fila-tarjetas .tarjeta__cuerpo {
+  flex: 1;
+  padding: 1.1rem 1.1rem 0.5rem;
+  text-align: center;
+}
+
+.fila-tarjetas .tarjeta__titulo {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--t-azul);
+}
+
+.fila-tarjetas .tarjeta__gancho {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
+.fila-tarjetas .tarjeta__ref {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--t-dorado);
+}
+
+.fila-tarjetas .tarjeta__niveles {
+  padding: 0.75rem 1.1rem 1.1rem;
+}
+
+/* Botón principal */
+.fila-tarjetas .tarjeta__leer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border: 1.5px solid var(--t-carmesi);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--t-carmesi);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+}
+.fila-tarjetas .tarjeta__leer:hover,
+.fila-tarjetas .tarjeta__leer:focus-visible {
+  background: var(--t-carmesi);
+  color: #fff;
+}
+
+/* Niveles secundarios: siguen visibles en todas las tarjetas */
+.fila-tarjetas .tarjeta__otros {
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--t-gris);
+}
+.fila-tarjetas .tarjeta__otros a {
+  color: var(--t-gris);
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.fila-tarjetas .tarjeta__otros a:hover { color: var(--t-carmesi); }
+
+.fila-tarjetas .tarjeta__leer:focus-visible,
+.fila-tarjetas .tarjeta__otros a:focus-visible {
+  outline: 3px solid var(--t-tinta);
+  outline-offset: 3px;
+}
+
+/* Estado "Próximamente" (va después de las reglas de hover) */
+.fila-tarjetas .tarjeta__leer--pronto,
+.fila-tarjetas .tarjeta__leer--pronto:hover {
+  border-color: var(--t-borde);
+  background: #f1ece4;
+  color: var(--t-gris);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  cursor: default;
+}
+
+@media (max-width: 575.98px) {
+  .fila-tarjetas .tarjeta__img { aspect-ratio: 16 / 10; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fila-tarjetas .tarjeta__leer { transition: background-color 0.15s ease, color 0.15s ease; }
+}
+
+
+/* Permite que el menú desplegable salga de la barra fija de 56px */
+.navbar-custom {
+  overflow: visible !important;
+}
+.dropdown-menu {
+  position: absolute !important;
+  z-index: 9999 !important;
+}
+
+
+/* QR */
+.qr-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.qr-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.qr-card p {
+    color: black;
+    font-weight: 600;
+}
+
+.qr-card img {
+    width: 180px;
+    height: 180px;
+}
